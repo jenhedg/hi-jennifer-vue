@@ -1,41 +1,27 @@
 <template>
   <div id="app">
-    <nav class="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </nav>
+    <Nav/>
     <main>
       <router-view />
     </main>
-    <footer>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </footer>
+   <Footer/>
   </div>
 </template>
 
-<style lang="scss">
-html {
-  box-sizing: border-box;
-}
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  color: #2c3e50;
-  padding: 20px;
-}
+<script>
+// @ is an alias to /src
+import Nav from "@/components/app/Nav.vue";
+import Footer from "@/components/app/Footer.vue";
 
-.nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
+export default {
+  name: "App",
+  components: {
+    Nav,
+    Footer
   }
-}
+};
+</script>
+
+<style lang="scss">
+  @import "@/styles/main.scss";
 </style>

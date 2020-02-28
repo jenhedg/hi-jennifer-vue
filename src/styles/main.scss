@@ -1,0 +1,21 @@
+@use 'variables.scss'
+
+//Components
+@use 'components/nav.scss'
+@use 'components/footer.scss'
+
+// Views
+@use 'views/home.scss'
+@use 'views/about.scss'
+
+// App
+html {
+  box-sizing: border-box;
+}
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2c3e50;
+  padding: 20px;
+}
