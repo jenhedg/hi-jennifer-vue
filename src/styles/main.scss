@@ -1,12 +1,14 @@
-@use 'variables.scss'
+//Global
+@import 'global/_variables.scss';
+@import 'global/_layout.scss';
 
 //Components
-@use 'components/nav.scss'
-@use 'components/footer.scss'
+@import 'components/_nav.scss';
+@import 'components/_footer.scss';
 
 // Views
-@use 'views/home.scss'
-@use 'views/about.scss'
+// @import 'views/home.scss';
+// @import 'views/about.scss';
 
 // App
 html {
@@ -17,5 +19,4 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
-  padding: 20px;
 }

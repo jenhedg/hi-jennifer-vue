@@ -3,14 +3,20 @@
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
     <p>This website is made with Vue.js</p>
+    <p>&copy;2020 Jennifer Hedgcock</p>
   </footer>
 </template>
 
 <script>
-  export default {
-    name: "Footer",
-    props: {
-      msg: String
-    }
-  };
+export default {
+  name: "Footer",
+  props: {
+    msg: String
+  }
+};
 </script>
+
+<style lang="scss">
+  @import "@/styles/main.scss";
+</style>
+
