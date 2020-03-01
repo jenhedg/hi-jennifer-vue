@@ -1,8 +1,18 @@
 <template>
   <footer class="footer">
     <ul class="footerNav">
-      <li class="footerNav__link"><router-link to="/">Home</router-link></li>
-      <li><router-link to="/about">About</router-link></li>
+      <li class="footerNav__link">
+        <router-link to="/">Home</router-link>
+      </li>
+      <li>
+        <router-link to="/about">About</router-link>
+      </li>
+       <li>
+        <router-link to="/resume">Resume</router-link>
+      </li>
+       <li>
+        <router-link to="/contact">Contact</router-link>
+      </li>
     </ul>
     <div class="footerInfo">
       <p>&copy;2020 Jennifer Hedgcock</p>

@@ -10,6 +10,12 @@
       <li class="navList__link">
         <router-link to="/about">About</router-link>
       </li>
+       <li class="navList__link">
+        <router-link to="/resume">Resume</router-link>
+      </li>
+       <li class="navList__link">
+        <router-link to="/contact">Contact</router-link>
+      </li>
     </ul>
   </nav>
 </template>
