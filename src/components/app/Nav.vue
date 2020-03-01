@@ -1,8 +1,17 @@
 <template>
   <nav class="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </nav>
+    <div class="navLogo">
+      <router-link to="/">Jh</router-link>
+    </div>
+    <ul class="navList">
+      <li class="navList__link">
+          <router-link to="/">Home</router-link>
+      </li>
+      <li class="navList__link">
+        <router-link to="/about">About</router-link>
+      </li>
+    </ul>
+  </nav>
 </template>
 
 <script>
@@ -13,3 +22,7 @@
     }
   };
 </script>
+
+<style lang="scss">
+  @import "@/styles/main.scss";
+</style>

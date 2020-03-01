@@ -1,9 +1,12 @@
 <template>
-  <footer>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-    <p>This website is made with Vue.js</p>
-    <p>&copy;2020 Jennifer Hedgcock</p>
+  <footer class="footer">
+    <ul class="footerNav">
+      <li class="footerNav__link"><router-link to="/">Home</router-link></li>
+      <li><router-link to="/about">About</router-link></li>
+    </ul>
+    <div class="footerInfo">
+      <p>&copy;2020 Jennifer Hedgcock</p>
+    </div>
   </footer>
 </template>
 
