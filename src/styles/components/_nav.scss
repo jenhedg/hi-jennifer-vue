@@ -23,8 +23,64 @@
     width: 700px;
 }
 
+.navList__link {
+    display: none;
+
+    @include md {
+        display: inline-block;
+    }
+
+}
+
 .navList__link a {
     color: $black;
     text-decoration: none;
 
+}
+
+.navList__mobileIcon {
+	position: relative;
+    display:  inline-block;
+    margin-left: auto;
+	width: 30px;
+    height: 30px;
+    transform: rotate(0deg);
+    transition: 0.2s ease;
+    
+    &:hover {
+	    transform: rotate(90deg); 
+    }
+    
+    @include md {
+        display: none;
+    }
+}
+
+.navList__mobileIcon span {
+	margin: 0 auto;
+	position: relative;
+	top: 12px;
+}
+
+.navList__mobileIcon span:before, 
+.navList__mobileIcon span:after {
+	position: absolute;
+	content: '';
+}
+
+.navList__mobileIcon span, 
+.navList__mobileIcon span:before, 
+.navList__mobileIcon span:after {
+	width: 30px;
+	height: 6px;
+	background-color: #000;
+	display: block;
+}
+
+.navList__mobileIcon span:before {
+	margin-top: -12px;
+}
+
+.navList__mobileIcon span:after {
+	margin-top: 12px;
 }

@@ -13,8 +13,11 @@
        <li class="navList__link">
         <router-link to="/resume">Resume</router-link>
       </li>
-       <li class="navList__link">
-        <router-link to="/contact">Contact</router-link>
+      <li class="navList__link">
+      <router-link to="/contact">Contact</router-link>
+      </li>
+      <li class="navList__mobileIcon">
+        <span></span>
       </li>
     </ul>
   </nav>
