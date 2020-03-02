@@ -5,6 +5,7 @@ footer {
 }
 
 .footerNav {
+    color: red;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -13,8 +14,7 @@ footer {
     padding: 0;
     list-style-type: none;
     width: 700px;
- 
-    width: 700px;
+    color: white;
 
     a { 
         color: $black;

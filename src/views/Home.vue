@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <!-- <img alt="Vue logo" src="../assets/logo.png" /> -->
-    <Feature msg="My name is Jennifer" intro="I am a Front End Web Developer in Tucson, Arizona." />
+    <Feature msg="My name is Jennifer"/>
   </div>
 </template>
 

@@ -1,7 +1,7 @@
 <template>
   <div class="feature">
     <h1>{{ msg }}</h1>
-    <p>{{ intro }}</p>
+    <p><b>I am a Front End Web Developer</b> in Tucson, Arizona. I have some great experience working with clients across the globe, learn more about it <a href="#">here</a>. I'm currently learning experimenting with Vue.js and d3.js.</p>
   </div>
 </template>
 

@@ -1,6 +1,6 @@
 <template>
   <section class="about">
-    <h1>Projects</h1>
+    <h1>Projects I'm Proud of</h1>
     <div>
       <h2>Project Title</h2>
       <p>A brief intro paragraph about the project, including my role in the team and objectives accomplished and technologies used.</p>
