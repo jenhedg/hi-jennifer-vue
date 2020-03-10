@@ -1,6 +1,6 @@
 <template>
   <section class="resume">
-   <p>Resume</p>
+    <p>Resume</p>
   </section>
 </template>
 

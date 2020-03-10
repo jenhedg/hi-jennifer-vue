@@ -7,10 +7,10 @@
       <li>
         <router-link to="/projects">Projects</router-link>
       </li>
-       <li>
+      <li>
         <router-link to="/resume">Resume</router-link>
       </li>
-       <li>
+      <li>
         <router-link to="/contact">Contact</router-link>
       </li>
     </ul>
@@ -30,6 +30,5 @@ export default {
 </script>
 
 <style lang="scss">
-  @import "@/styles/main.scss";
+@import "@/styles/main.scss";
 </style>
-

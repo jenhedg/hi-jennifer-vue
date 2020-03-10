@@ -1,11 +1,11 @@
 <template>
   <div id="app">
     <div class="container">
-      <Nav/>
+      <Nav />
       <main>
         <router-view />
       </main>
-    <Footer/>
+      <Footer />
     </div>
   </div>
 </template>
@@ -25,5 +25,5 @@ export default {
 </script>
 
 <style lang="scss">
-  @import "@/styles/main.scss";
+@import "@/styles/main.scss";
 </style>

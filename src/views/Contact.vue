@@ -1,7 +1,7 @@
 <template>
   <section class="contact">
     <!-- <img alt="Vue logo" src="../assets/logo.png" /> -->
-   <p>Contact info, form, links to Codepen and Github.</p>
+    <p>Contact info, form, links to Codepen and Github.</p>
   </section>
 </template>
 
