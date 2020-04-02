@@ -1,7 +1,9 @@
 <template>
   <nav class="nav">
     <div class="navLogo">
-      <router-link to="/">Jh</router-link>
+      <router-link to="/">
+          <img alt="Jennifer Hedgcock" src="@/assets/logo.png"/>
+        </router-link>
     </div>
     <ul class="navList">
       <li class="navList__link">
@@ -16,11 +18,7 @@
       <li class="navList__link">
         <router-link to="/contact">Contact</router-link>
       </li>
-      <li
-        id="mobileTrigger"
-        class="navList__mobileIcon"
-        v-on:click="openNav"
-      >
+      <li id="mobileTrigger" class="navList__mobileIcon" v-on:click="openNav">
         <span></span>
       </li>
     </ul>

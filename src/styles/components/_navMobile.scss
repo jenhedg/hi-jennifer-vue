@@ -1,0 +1,72 @@
+.mobileNav {
+  // display: none;
+  position: absolute;
+  left: -300px;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  width: 100%;
+  transition: 0.30s;
+}
+
+.isActive {
+  left: 0;
+}
+
+.mobileNav--active {
+  display: initial;
+}
+
+.mobileNav .navList {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.mobileNav .navList__link {
+  padding-bottom: $gutter / 2;
+}
+
+.navList__mobileIcon {
+	position: relative;
+    display:  inline-block;
+    margin-left: auto;
+	  width: 30px;
+    height: 30px;
+    transform: rotate(0deg);
+    transition: 0.2s ease;
+    
+    @include lg {
+        display: none;
+    }
+}
+
+
+.navList__mobileIcon span {
+	margin: 0 auto;
+	position: relative;
+	top: 12px;
+}
+
+.navList__mobileIcon span:before, 
+.navList__mobileIcon span:after {
+	position: absolute;
+	content: '';
+}
+
+.navList__mobileIcon span, 
+.navList__mobileIcon span:before, 
+.navList__mobileIcon span:after {
+	width: 30px;
+	height: 6px;
+	background-color: #000;
+	display: block;
+}
+
+.navList__mobileIcon span:before {
+	margin-top: -12px;
+}
+
+.navList__mobileIcon span:after {
+	margin-top: 12px;
+}

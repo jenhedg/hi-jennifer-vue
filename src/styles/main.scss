@@ -5,6 +5,7 @@
 
 //Components
 @import 'components/_nav.scss';
+@import 'components/_navMobile.scss';
 @import 'components/_footer.scss';
 @import 'components/_feature.scss';
 
@@ -24,7 +25,12 @@ html {
 }
 
 .container {
-  background: $eggshell;
+  position: relative;
+  padding: $gutter;
+}
+
+.isMobile {
+  transform: translateX(300);
 }
 
 main {
