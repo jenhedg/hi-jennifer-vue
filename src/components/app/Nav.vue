@@ -7,16 +7,16 @@
     </div>
     <ul class="navList">
       <li class="navList__link">
-        <router-link to="/">Home</router-link>
+        <router-link to="/" role="button" aria-label="menu">Home</router-link>
       </li>
       <li class="navList__link">
-        <router-link to="/projects">Projects</router-link>
+        <router-link to="/projects" role="button" aria-label="menu">Projects</router-link>
       </li>
       <li class="navList__link">
-        <router-link to="/resume">Resume</router-link>
+        <router-link to="/resume" role="button" aria-label="menu">Resume</router-link>
       </li>
       <li class="navList__link">
-        <router-link to="/contact">Contact</router-link>
+        <router-link to="/contact" role="button" aria-label="menu">Contact</router-link>
       </li>
       <li id="mobileTrigger" class="navList__mobileIcon" v-on:click="openNav">
         <span></span>
