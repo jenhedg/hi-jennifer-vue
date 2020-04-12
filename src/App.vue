@@ -1,7 +1,10 @@
 <template>
   <div id="app">
-    <MobileNav v-if="mobileView" :class="{ isActive: showNav }"/>
-    <div class="container" :class="{ isMobile: showNav }">
+    <header>
+      <!-- <mobile-nav 
+        v-if="mobileView" 
+        :class="{ isActive: showNav }" 
+      /> -->
       <div
         class="navList__mobileIcon"
         v-if="mobileView"
@@ -10,6 +13,8 @@
         <span></span>
       </div>
       <Nav v-if="!mobileView" />
+    </header>
+    <div class="container" :class="{ isMobile: showNav }">
       <main>
         <router-view />
       </main>
@@ -23,29 +28,35 @@
 import Nav from "@/components/app/Nav.vue";
 import MobileNav from "@/components/app/MobileNav.vue";
 import Footer from "@/components/app/Footer.vue";
-
+console.log(Nav);
+console.log(MobileNav);
 export default {
   name: "App",
+  components: {
+    Nav,
+    // "mobile-nav": MobileNav,
+    Footer,
+  },
   data: () => {
     return {
       mobileView: true,
-      showNav: false
+      showNav: false,
     };
   },
   methods: {
     handleView() {
       this.mobileView = window.innerWidth <= 990;
-    }
+    },
   },
-  components: {
-    Nav,
-    MobileNav,
-    Footer
-  },
+
   created() {
+    console.log("created");
     this.handleView();
     window.addEventListener("resize", this.handleView);
-  }
+  },
+  mounted() {
+    console.log("mounted");
+  },
 };
 </script>
 

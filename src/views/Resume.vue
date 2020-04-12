@@ -11,6 +11,6 @@ export default {
   name: "Resume",
   components: {
     //
-  }
+  },
 };
 </script>

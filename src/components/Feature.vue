@@ -10,8 +10,8 @@ export default {
   name: "Feature",
   props: {
     msg: String,
-    intro: String
-  }
+    intro: String,
+  },
 };
 </script>
 

@@ -11,7 +11,7 @@ import Feature from "@/components/Feature.vue";
 export default {
   name: "Home",
   components: {
-    Feature
-  }
+    Feature,
+  },
 };
 </script>

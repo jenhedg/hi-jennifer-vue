@@ -24,8 +24,8 @@
 export default {
   name: "Footer",
   props: {
-    msg: String
-  }
+    msg: String,
+  },
 };
 </script>
 
