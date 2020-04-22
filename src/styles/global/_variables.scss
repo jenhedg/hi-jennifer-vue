@@ -1,11 +1,15 @@
 //Spacers
-$gutter: 20px;
 $padding: 20px;
+$spacer: 1em;
 
 //Colors
+$white: rgba(255, 255, 255, 1);
 $black: rgba(0,0,0,1);
 $hotpink: rgba(234, 61, 150, 1);
 $mint: rgba(123, 224, 173, 1);
 $aqua: rgba(27, 153, 139, 1);
 $yellow: rgba(255, 209, 102, 1);
 $eggshell: rgba(255, 224, 181, 1);
+
+//Fonts
+$roboto: 'Roboto', Arial, sans-serif;

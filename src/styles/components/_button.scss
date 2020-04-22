@@ -1,0 +1,56 @@
+.btn {
+    border: none;
+    font-family: $roboto;
+    font-size: 1em;
+    color: inherit;
+    background: none;
+    cursor: pointer;
+    padding: 25px 80px;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    outline: none;
+    position: relative;
+    transition: all 0.3s; 
+    text-align: center;  
+}
+
+.btn:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    -webkit-transition: al  l 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+/*Color Mods*/
+.btn--pink {
+    border: 4px double $hotpink;
+    color: $hotpink;
+    text-decoration: none;
+
+
+    &:hover{
+        background: $hotpink;
+        color: $white;
+        border: 4px double $white;
+    }
+}
+
+ /*Size Mods*/
+ .btn--defSize {
+    padding: $padding / 2 $padding;
+    width: 250px;
+}
+
+ /*Positioning Mods*/
+ .btn--center{
+    align-self: center;
+ }
+
+ //*Spacer*/
+ .btn--pusher {
+    margin: $spacer;
+ }

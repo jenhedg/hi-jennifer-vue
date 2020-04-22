@@ -26,15 +26,12 @@
 <script>
 // @ is an alias to /src
 import Nav from "@/components/app/Nav.vue";
-import MobileNav from "@/components/app/MobileNav.vue";
 import Footer from "@/components/app/Footer.vue";
-console.log(Nav);
-console.log(MobileNav);
+
 export default {
   name: "App",
   components: {
     Nav,
-    // "mobile-nav": MobileNav,
     Footer,
   },
   data: () => {
