@@ -1,11 +1,11 @@
 <template>
-    <router-link
-      class="btn btn--defSize btn--center btn--pusher btn--pink"
-      to="/resume"
-      role="button"
-      aria-label="resume button"
-      >{{ label }}</router-link
-    >
+  <router-link
+    class="btn btn--defSize btn--pink flexChild--alignLeft"
+    to="/resume"
+    role="button"
+    aria-label="resume button"
+    >{{ label }}</router-link
+  >
 </template>
 
 <script>

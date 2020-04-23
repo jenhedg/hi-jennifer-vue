@@ -1,15 +1,21 @@
 <template>
   <section class="home">
-    <div class="jumbotron ">
-      <div class="jumbotronIntro ">
+    <div class="jumbotron">
+      <div class="jumbotronIntro">
         <h2 class="jumbotronIntro__title">
-           <span class="bgFill bgFill--pink">
+          <span class="bgFill bgFill--pink">
             Hi, I'm Jennifer.
-            </span>
+          </span>
         </h2>
         <h3 class="jumbotronIntro__subtitle">
           <span class="bgFill bgFill--pink">
-            I'm a Web Developer in <a href="https://en.wikipedia.org/wiki/Tucson,_Arizona" target="_blank" style="text-decoration: underline;">Tucson, Arizona.</a>
+            I'm a Web Developer in
+            <a
+              href="https://en.wikipedia.org/wiki/Tucson,_Arizona"
+              target="_blank"
+              style="text-decoration: underline;"
+              >Tucson, Arizona.</a
+            >
           </span>
         </h3>
         <Button label="See My Resume" />
@@ -53,15 +59,15 @@ export default {
   background-size: cover;
   background-position: center;
   height: 50vh;
-  font-family: 'Roboto', Arial, sans-serif;
+  font-family: "Roboto", Arial, sans-serif;
   font-weight: 700;
 }
 
 .jumbotronIntro {
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-    align-items: left;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  align-items: left;
 }
 
 .jumbotronIntro__title {
@@ -74,20 +80,19 @@ export default {
   margin: 0;
 }
 
-.jumbotronIntro__title, 
+.jumbotronIntro__title,
 .jumbotronIntro__subtitle {
   color: #fff;
   margin: 0;
-} 
+}
 
 /*Fill in bg of text*/
 
 .bgFill {
   line-height: 2;
-  padding: .25em;
+  padding: 0.25em;
 }
 .bgFill--pink {
   background-color: rgba(234, 61, 150, 1);
 }
-
 </style>
