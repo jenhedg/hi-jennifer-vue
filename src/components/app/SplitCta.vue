@@ -1,17 +1,18 @@
 <template>
-     <section class ="splitCta flex" 
-      style="
-        background-color: pink;
-      "
+     <section class ="splitCta" 
     >
-      <h3>My Work</h3>
-      <div class="ctaFeature">
-        <h4>Github</h4>
-        <Button label="Github"/>
-      </div>
-      <div class="ctaFeature">
-        <h4>Codepen</h4>
-        <Button label="Codepen"/>
+      <!-- <h3 class="splitCta__title">
+        <span class="bgFill bgFill--pink">
+          Snappy and Neat Tagline
+        </span>
+      </h3> -->
+      <div class="ctaFeatureContainer flex">
+        <div class="ctaFeature ctaFeature__left">
+          <Button class="ctaFeature__btn" label="Github"/>
+        </div>
+        <div class="ctaFeature ctaFeature__right">
+          <Button class="ctaFeature__btn" label="Codepen"/>
+        </div>
       </div>
     </section>
 </template>
