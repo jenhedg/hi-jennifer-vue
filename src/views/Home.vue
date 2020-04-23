@@ -1,49 +1,41 @@
 <template>
   <section class="home">
-    <div class="jumbotron">
-      <div class="jumbotronIntro">
-        <h2 class="jumbotronIntro__title">
-          <span class="bgFill bgFill--pink">
-            Hi, I'm Jennifer.
-          </span>
-        </h2>
-        <h3 class="jumbotronIntro__subtitle">
-          <span class="bgFill bgFill--pink">
-            I'm a Web Developer in
-            <a
-              href="https://en.wikipedia.org/wiki/Tucson,_Arizona"
-              target="_blank"
-              style="text-decoration: underline;"
-              >Tucson, Arizona.</a
-            >
-          </span>
-        </h3>
-        <Button label="See My Resume" />
+    <Jumbotron/>
+    <section class ="splitCta flex" 
+      style="
+        background-color: pink;
+      "
+    >
+      <h3>My Work</h3>
+      <div class="ctaFeature">
+        <h4>Github</h4>
+        <Button label="Github"/>
       </div>
-    </div>
+      <div class="ctaFeature">
+        <h4>Codepen</h4>
+        <Button label="Codepen"/>
+      </div>
+    </section>
+    <section class="projects">
     <h3>Projects:</h3>
     <ul>
       <li>Exp projct one</li>
       <li>Exp project two</li>
       <li>Exp project three</li>
     </ul>
+    </section>
     <hr />
-    <h3>Here are links to my code examples and repos</h3>
-    <ul>
-      <li>Github</li>
-      <li>Codepen</li>
-    </ul>
   </section>
 </template>
 
 <script>
 // @ is an alias to /src
-import Button from "@/components/app/Button.vue";
+import Jumbotron from "@/components/app/Jumbotron.vue";
 
 export default {
   name: "Home",
   components: {
-    Button,
+    Jumbotron,
   },
 };
 </script>
