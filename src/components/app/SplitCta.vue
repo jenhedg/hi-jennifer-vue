@@ -8,23 +8,20 @@
       </h3> -->
       <div class="ctaFeatureContainer flex">
         <div class="ctaFeature ctaFeature__left">
-          <Button class="ctaFeature__btn" label="Github"/>
+          <a class="btn btn--defSize btn--pink ctaFeature__btn" href="https://github.com/jenhedg" target="_blank">Github</a>
         </div>
         <div class="ctaFeature ctaFeature__right">
-          <Button class="ctaFeature__btn" label="Codepen"/>
+          <a class="btn btn--defSize btn--pink ctaFeature__btn" href="https://codepen.io/sparkleOven" target="_blank">Codepen</a>
         </div>
       </div>
     </section>
 </template>
 
 <script>
-import Button from "@/components/app/Button.vue";
-
 
 export default {
   name: "SplitCta",
    components: {
-    Button,
   },
   props: {
     label: String,
