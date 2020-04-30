@@ -2,20 +2,16 @@
    <section class="jumbotron">
       <div class="jumbotronIntro">
         <h2 class="jumbotronIntro__title">
-          <span class="">
             Hi, I'm Jennifer.
-          </span>
         </h2>
         <h3 class="jumbotronIntro__subtitle">
-          <span class="">
             I'm a Web Developer in
             <a
               href="https://en.wikipedia.org/wiki/Tucson,_Arizona"
               target="_blank"
               style="text-decoration: underline;"
-              >Tucson, Arizona.</a
-            >
-          </span>
+              >Tucson, Arizona.
+            </a>
         </h3>
         <p class="jumbotronIntro__blurb">
           I have over four years digital agency experience, where I helped clients across the globe to exceed their marketing technology goals. If you would like to learn more about me please see my Resume, explore my work, or drop me a line.
