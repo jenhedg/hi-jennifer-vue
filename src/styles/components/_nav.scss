@@ -1,8 +1,14 @@
 .nav {
-    border-bottom: 4px solid $hotpink;
     display: flex;
     align-items: center;
+    background: transparent;
     padding: 0 $padding / 2;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
 }
 
 .navLogo {

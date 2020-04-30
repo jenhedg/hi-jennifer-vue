@@ -17,37 +17,32 @@
       <main class="container" :class="{ isMobile: showNav }">
         <router-view />
       </main>
-      <Footer />
+      <!-- <Footer /> -->
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
 import Nav from "@/components/app/Nav.vue";
-import Footer from "@/components/app/Footer.vue";
+// import Footer from "@/components/app/Footer.vue";
 
 export default {
   name: "App",
   components: {
     Nav,
-    Footer,
+    // Footer,
   },
   data: () => {
     return {
-      mobileView: true,
-      showNav: false,
+    
     };
   },
   methods: {
-    handleView() {
-      this.mobileView = window.innerWidth <= 990;
-    },
+   
   },
 
   created() {
     console.log("created");
-    this.handleView();
-    window.addEventListener("resize", this.handleView);
   },
   mounted() {
     console.log("mounted");
@@ -57,9 +52,4 @@ export default {
 
 <style lang="scss">
 @import "@/styles/main.scss";
-.isMobile {
-  position: absolute;
-  transform: translateX(300px);
-  transition: 0.25s;
-}
 </style>

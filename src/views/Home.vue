@@ -1,24 +1,24 @@
 <template>
   <section class="home">
     <Jumbotron/>
-    <SplitCta/>
-    <Gallery/>
-    <hr />
+    <!-- <SplitCta/> -->
+    <!-- <Gallery/>
+    <hr /> -->
   </section>
 </template>
 
 <script>
 // @ is an alias to /src
 import Jumbotron from "@/components/app/Jumbotron.vue";
-import SplitCta from "@/components/app/SplitCta.vue";
-import Gallery from "@/components/app/Gallery.vue";
+// import SplitCta from "@/components/app/SplitCta.vue";
+// import Gallery from "@/components/app/Gallery.vue";
 
 export default {
   name: "Home",
   components: {
     Jumbotron,
-    SplitCta,
-    Gallery
+    // SplitCta,
+    // Gallery
   },
 };
 </script>
