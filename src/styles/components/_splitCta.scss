@@ -1,50 +1,111 @@
-.splitCta {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  border-top: 3px solid $white;
+
+
+.site__container {
+  margin: 50px auto;
+  padding: 0 20px;
+  width: 100%;
+
+  @include sm {
+    margin: 80px auto;
+    max-width: 1420px;
+    padding: 0 40px;
+  }
 }
 
-.splitCta__title {
-  color: $white;
-  font-size: $sectionHeader;
+.siteContent__header {
+  margin: 0 auto;
   text-align: center;
 }
 
-.ctaFeatureContainer {
-  justify-content: center;
-  align-items: center;
+.siteContent__title {
+  font-family: $roboto;
+  font-weight: 700;
 }
 
-.ctaFeature {
-  display: flex;
-  align-items: center;
-  flex: co;
-  flex-direction: column;
-  height: 25vh;
-  width: 50%;
+.siteContent__description {
+    font-family: $roboto;
+    font-size: 16px;
+    line-height: 26px;
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin-bottom: 8px;
 }
 
-.ctaFeature__btn {
-  margin: auto;
+.contentGroup__inner {
+    max-width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: -15px auto;
 }
 
-/*Todo - mv to mixin*/
-.ctaFeature__left {
-  background: repeating-linear-gradient(
-  45deg,
-  #606dbc,
-  #606dbc 10px,
-  #465298 10px,
-  #465298 20px
-);
+.contentCard{
+  max-width: 100%;
+
+  @include lg {
+    backface-visibility: hidden;
+    background: linear-gradient(to right, #ff6f00, #ff9100);
+    border-radius: 10px;
+    box-shadow: 0 0 36px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: calc(100% / 3 - 30px);
+    max-width: calc(100% / 3 - 30px);
+    margin: 15px;
+    position: relative;
+    transform: translate3d(0, 0, 0);
+  }
 }
-.ctaFeature__right {
-  background: repeating-linear-gradient(
-  to right,
-  #f6ba52,
-  #f6ba52 10px,
-  #ffd180 10px,
-  #ffd180 20px
-);
+
+// .contentCard::before {
+//     background: #fff;
+//     border-radius: 10px;
+//     content: '';
+//     height: 100%;
+//     left: 0;
+//     pointer-events: none;
+//     position: absolute;
+//     top: 0;
+//     transition: opacity .2s linear;
+//     width: 100%;
+// }
+
+.contentCard--horizontal {
+  flex-direction: row;
+  flex-basis: calc(100% - 30px);
+
+  @include lg {
+    max-width: calc(83.33333% - 30px);
+  }
+}
+
+
+.contentCard--underContent {
+
+  flex: 1 0 50%;
+  max-width: 50%;
+}
+
+.contentCard__imgWrap {
+
+  @include lg {
+    border-bottom: solid 1px #dadada;
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+    position: relative;
+    transition: border-color .2s linear;
+    z-index: 1;
+    flex: 1 0 50%;
+    max-width: 50%;
+  }
+}
+
+.contentCard__img {
+  border-radius: 10px 10px 0 0;
+  display: block;
+  height: auto;
+  width: 100%;
 }

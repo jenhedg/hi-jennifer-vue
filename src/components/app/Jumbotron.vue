@@ -16,19 +16,19 @@
         <p class="jumbotronIntro__blurb">
           I have over four years digital agency experience, where I helped clients across the globe to exceed their marketing technology goals. If you would like to learn more about me please see my Resume, explore my work, or drop me a line.
         </p>
-        <Button label="See My Resume" />
+        <!-- <Button label="See My Resume" /> -->
       </div>
     </section>
 </template>
 
 <script>
 // @ is an alias to /src
-import Button from "@/components/app/Button.vue";
+// import Button from "@/components/app/Button.vue";
 
 export default {
   name: "Jumbotron",
   components: {
-    Button
+    // Button
   },
   props: {
     msg: String,

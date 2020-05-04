@@ -19,6 +19,8 @@
 // @import 'views/about.scss';
 
 // App
+
+*,
 html {
   box-sizing: border-box;
 }
@@ -31,6 +33,7 @@ html {
 
 .container {
   position: relative;
+  overflow: hidden;
 }
 
 .isMobile {
