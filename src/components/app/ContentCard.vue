@@ -2,7 +2,7 @@
   <section class="">
     <div class="contentCard contentCard--horizontal">
         <div class="contentCard__imgWrap">
-        <img class="contentCard__img" src="https://centsai.com/wp-content/uploads/2018/04/Financial-literacy-programs-for-the-poor-Daye-Deura-1200x825.jpg" alt="img"/>
+        <img class="contentCard__img" :src="thumbnail" alt="img"/>
       </div>
     <div class="siteContent contentCard--underContent">
       <a class="siteContent__title">
@@ -14,7 +14,7 @@
         </p>
       </div>
       <div class="siteContent__ctaWrapper">
-          <a class="btn btn--defSize btn--pink ctaFeature__btn" href="https://github.com/jenhedg" target="_blank">{{ btnLabel }}</a>
+          <a class="btn btn--defSize btn--pink ctaFeature__btn" :href="href" target="_blank">{{ btnLabel }}</a>
       </div>
     </div>
     </div>
@@ -29,8 +29,10 @@ export default {
    components: {
   },
   props: {
+    thumbnail: String,
     title: String,
     copy: String,
+    href: String,
     btnLabel: String,
   },
 };
