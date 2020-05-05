@@ -1,6 +1,6 @@
 <template>
   <section class="home site__container">
-    <Jumbotron/>
+    <Hero/>
       <div class="contentGroup__inner">
         <ContentCard 
         title="See my work on Githb"
@@ -17,13 +17,13 @@
 </template>
 
 <script>
-import Jumbotron from "@/components/app/Jumbotron.vue";
+import Hero from "@/components/app/Hero.vue";
 import ContentCard from "@/components/app/ContentCard.vue";
 
 export default {
   name: "Home",
   components: {
-    Jumbotron,
+    Hero,
     ContentCard
   },
 };
