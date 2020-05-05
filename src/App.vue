@@ -1,20 +1,9 @@
 <template>
   <div id="app">
     <header>
-        <!-- <mobile-nav 
-          v-if="mobileView" 
-          :class="{ isActive: showNav }" 
-        /> 
-        <div
-          class="navList__mobileIcon"
-          v-if="mobileView"
-          @click="showNav = !showNav"
-        >
-          <span></span>
-        </div>-->
-        <Nav v-if="!mobileView" />
+        <Nav/>
       </header>
-      <main class="container" :class="{ isMobile: showNav }">
+      <main class="site__container">
         <router-view />
       </main>
       <!-- <Footer /> -->

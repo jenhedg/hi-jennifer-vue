@@ -10,24 +10,24 @@ const routes = [
     name: "Home",
     component: Home,
   },
-  {
-    path: "/projects",
-    name: "Projects",
-    component: () =>
-      import(/* webpackChunkName: "about" */ "../views/Projects.vue"),
-  },
-  {
-    path: "/resume",
-    name: "Resume",
-    component: () =>
-      import(/* webpackChunkName: "about" */ "../views/Resume.vue"),
-  },
-  {
-    path: "/contact",
-    name: "Contact",
-    component: () =>
-      import(/* webpackChunkName: "about" */ "../views/Contact.vue"),
-  },
+  // {
+  //   path: "/projects",
+  //   name: "Projects",
+  //   component: () =>
+  //     import(/* webpackChunkName: "about" */ "../views/Projects.vue"),
+  // },
+  // {
+  //   path: "/resume",
+  //   name: "Resume",
+  //   component: () =>
+  //     import(/* webpackChunkName: "about" */ "../views/Resume.vue"),
+  // },
+  // {
+  //   path: "/contact",
+  //   name: "Contact",
+  //   component: () =>
+  //     import(/* webpackChunkName: "about" */ "../views/Contact.vue"),
+  // },
 ];
 
 const router = new VueRouter({
