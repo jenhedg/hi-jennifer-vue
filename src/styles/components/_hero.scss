@@ -1,50 +1,21 @@
-.jumbotron {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  // background-image: url(https://images.unsplash.com/photo-1463936575829-25148e1db1b8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1090&q=80);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center 60%;
-  height: 40vh;
-  font-family: $serif;
-  z-index: 0;
-}
-.jumbotronIntro {
-  display: flex;
-  flex-direction: column;
-  align-self: center;
 
-  @include lg {
-  width: 800px;
-  }
+.hero {
+  font-family: $roboto;
+  text-align: center;
+  margin: 0 auto $spacer * 2;
+  max-width: 1019px;
 }
 
-.jumbotronIntro__title {
-  font-family: $serif;
-  font-size: $medFont;
+.hero__intro {
+  margin: 0 auto;
+  font-weight: 700;
 }
 
-.jumbotronIntro__subtitle {
-  font-family: $serif;
-  font-size: $medFont;
-}
-
-.jumbotron__contact {
-  
-  a {
-    display: inline-block;
-  }
-}
-
-.jumbotronIntro__blurb {
-  // font-weight: $light;
-}
-
-.jumbotronIntro__title,
-.jumbotronIntro__subtitle,
-.jumbotronIntro__blurb {
-  font-family: $serif;
-  color: $white;
-  margin: 0;
+.hero__copy {
+    font-size: 1em;
+    line-height: 26px;
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 1;
+    text-align: left;
 }

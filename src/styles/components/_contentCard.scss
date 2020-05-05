@@ -1,3 +1,5 @@
+$contentCardGradient: linear-gradient(45deg, $hotpink, $burntOrange);
+
 .contentCard{
   background-color: $white;
   border-radius: 10px;
@@ -6,7 +8,7 @@
   @include lg {
     backface-visibility: hidden;
     border-radius: 10px;
-    box-shadow: 0 0 36px rgba(0,0,0,0.1);
+    box-shadow: $boxShadow;
     display: flex;
     flex-direction: column;
     flex-grow: 0;
@@ -20,8 +22,8 @@
 }
 
 .contentCard:hover {
-  background: linear-gradient(to right, $mint, $sage);
-  box-shadow: 0 0 64px rgba(0,0,0,0.22);
+  background: $contentCardGradient;
+  box-shadow: $boxShadow;
   cursor: pointer;
   transition: 1s ease-in-out;
 }

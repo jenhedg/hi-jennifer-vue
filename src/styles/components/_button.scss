@@ -27,15 +27,16 @@
 
 /*Color Mods*/
 .btn--pink {
-    border: 4px double $hotpink;
-    color: $hotpink;
+    border: 4px double $white;
+    border-radius: 10px;
+    background: $sage;
+    color: $white;
     text-decoration: none;
 
-
     &:hover{
-        background: $hotpink;
-        color: $white;
-        border: 4px double $white;
+        background: $white;
+        border: 4px double $sage;
+        color: $sage;
     }
 }
 
