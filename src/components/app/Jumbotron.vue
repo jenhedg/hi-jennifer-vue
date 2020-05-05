@@ -13,9 +13,12 @@
               >Tucson, Arizona.
             </a>
         </h3>
-        <p class="jumbotronIntro__blurb">
+          <a href="https://www.linkedin.com/in/jhedgcock/" target="_blank">LinkedIn</a>
+          <a href="https://github.com/jenhedg" target="_blank">Github</a>
+          <a href="https://codepen.io/sparkleOven" target="_blank">Codepen</a>
+        <!-- <p class="jumbotronIntro__blurb">
           I have over four years digital agency experience, where I helped clients across the globe to exceed their marketing technology goals. If you would like to learn more about me please see my Resume, explore my work, or drop me a line.
-        </p>
+        </p> -->
         <!-- <Button label="See My Resume" /> -->
       </div>
     </section>
@@ -37,7 +40,6 @@ export default {
 };
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss">
 @import "@/styles/main.scss";
 </style>
