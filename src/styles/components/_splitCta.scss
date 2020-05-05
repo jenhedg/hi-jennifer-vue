@@ -12,6 +12,12 @@
   }
 }
 
+.siteContent {
+    padding: 26px 30px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
 .siteContent__header {
   margin: 0 auto;
   text-align: center;
@@ -33,19 +39,23 @@
 }
 
 .contentGroup__inner {
-    max-width: 600px;
     display: flex;
     flex-wrap: wrap;
     list-style: none;
     margin: -15px auto;
+
+    @include lg {
+      max-width: calc(83.33333% - 30px);
+    }
 }
 
 .contentCard{
+  background-color: $white;
+  border-radius: 10px;
   max-width: 100%;
 
   @include lg {
     backface-visibility: hidden;
-    background: linear-gradient(to right, #ff6f00, #ff9100);
     border-radius: 10px;
     box-shadow: 0 0 36px rgba(0,0,0,0.1);
     display: flex;
@@ -58,27 +68,38 @@
     position: relative;
     transform: translate3d(0, 0, 0);
   }
+
+
+}
+
+.contentCard:hover {
+  background: linear-gradient(to right, $mint, $sage);
+  box-shadow: 0 0 64px rgba(0,0,0,0.22);
+  cursor: pointer;
+  transition: 1s ease-in-out;
 }
 
 // .contentCard::before {
-//     background: #fff;
-//     border-radius: 10px;
-//     content: '';
-//     height: 100%;
-//     left: 0;
-//     pointer-events: none;
-//     position: absolute;
-//     top: 0;
-//     transition: opacity .2s linear;
-//     width: 100%;
-// }
+//   border-radius: 10px;
+//   content: '';
+//   height: 100%;
+//   left: 0;
+//   pointer-events: none;
+//   position: absolute;
+//   top: 0;
+//   transition: opacity .2s linear;
+//   width: 100%;
 
+//   &:hover {
+//   opacity: 0;
+//   }
+// }
 .contentCard--horizontal {
   flex-direction: row;
   flex-basis: calc(100% - 30px);
 
   @include lg {
-    max-width: calc(83.33333% - 30px);
+    max-width: 100%;
   }
 }
 
@@ -86,14 +107,15 @@
 .contentCard--underContent {
 
   flex: 1 0 50%;
-  max-width: 50%;
+  margin: auto;
+  max-width: 100%;
 }
 
 .contentCard__imgWrap {
 
   @include lg {
     border-bottom: solid 1px #dadada;
-    border-radius: 10px 10px 0 0;
+    border-radius: 10px 0 0 10px;
     overflow: hidden;
     position: relative;
     transition: border-color .2s linear;
@@ -106,6 +128,12 @@
 .contentCard__img {
   border-radius: 10px 10px 0 0;
   display: block;
-  height: auto;
+  height: 100%;
   width: 100%;
+  object-fit: cover;
+
+  @include lg {
+    border-radius: 10px 0 0 10px;
+  }
+
 }
