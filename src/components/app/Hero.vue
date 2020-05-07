@@ -11,9 +11,6 @@
         >Tucson, Arizona.</a>
       </h2>
       <div class="hero__contactLinks">
-        <i>
-          <font-awesome-icon icon="user-secret" />
-        </i>
         <a href="https://www.linkedin.com/in/jhedgcock/" target="_blank">
           <i class="fab fa-linkedin"></i>LinkedIn
         </a>
@@ -29,16 +26,32 @@
       <hr />
       <div class="hero__copy">
         <p></p>
-        <p>I have four years of front end web development experience in the digital marketing/advertising industry. I've worked alongside some notable brands around the world to build responsive webapps, content management systems and markting tools.</p>
         <p>
-          These are some of the technologies I'm excited about:
-          <b>React.js</b>,
-          <b>Vue.js</b>,
-          <b>JAMStack/Gatsby</b>,
-          <b>Data Vizualization(D3.js)</b>,
-          <b>VR(AFrame)</b>,
-          <b>AI/machine learning (Ml5.js, TensorFlow, Keras)</b>.
+          I have four years of front end web development experience in the digital marketing/advertising industry.
+          I've worked alongside some notable brands around the world to build responsive webapps, content management systems and markting tools.
         </p>
+        <!-- <p>I have proven experience with HTML,CSS/SCSS/, Javascript, jQuery, CMS, React.js, Vue.js, templating engines (Handlebars, Freemarker, Jinja), build tools and task runners (Webpack, NPM, Gulp, Grunt) and version control (Git, Mercurial).</p> -->
+        <h3>Here are some of the tech I'm excited about:</h3>
+        <ul>
+          <li>
+            <b>React.js</b>,
+          </li>
+          <li>
+            <b>Vue.js</b>,
+          </li>
+          <li>
+            <b>Data Vizualizations(D3.js)</b>
+          </li>
+          <li>
+            <b>JAMStack/Gatsby</b>,
+          </li>
+          <li>
+            <b>VR(AFrame)</b>,
+          </li>
+          <li>
+            <b>Machine learning (Ml5.js, TensorFlow, Keras)</b>,
+          </li>
+        </ul>
         <p>
           I'm seeking my career next opportunity, click
           <a href="#">here</a> to learn more about me, or scroll down to see some of my work.
@@ -55,7 +68,7 @@
 // import Button from "@/components/app/Button.vue";
 
 export default {
-  name: "hero",
+  name: "Hero",
   components: {
     // Button
   },

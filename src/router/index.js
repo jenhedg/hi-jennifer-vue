@@ -10,23 +10,22 @@ const routes = [
     name: "Home",
     component: Home,
   },
-  // {
-  //   path: "/projects",
-  //   name: "Projects",
-  //   component: () =>
-  //     import(/* webpackChunkName: "about" */ "../views/Projects.vue"),
-  // },
-  // {
-  //   path: "/resume",
-  //   name: "Resume",
-  //   component: () =>
-  //     import(/* webpackChunkName: "about" */ "../views/Resume.vue"),
-  // },
+  {
+    path: "/work",
+    name: "Work",
+    component: () => import(/* webpackChunkName: "work" */ "../views/Work.vue"),
+  },
+  {
+    path: "/resume",
+    name: "Resume",
+    component: () =>
+      import(/* webpackChunkName: "resume" */ "../views/Resume.vue"),
+  },
   // {
   //   path: "/contact",
   //   name: "Contact",
   //   component: () =>
-  //     import(/* webpackChunkName: "about" */ "../views/Contact.vue"),
+  //     import(/* webpackChunkName: "contact" */ "../views/Contact.vue"),
   // },
 ];
 

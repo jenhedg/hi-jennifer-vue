@@ -16,7 +16,7 @@
     <h4>Currenty I'm into:</h4>
     <ul>
       <li>Web VR (with Google A Frame)</li>
-      <li>Machine Learning and AI (TensorF  </li>
+      <li>Machine Learning and AI (TensorF</li>
       <li>Data Vizualization (D3.js)</li>
       <li>JAMStack :heart-emoji:</li>
       <li>Vue.js</li>

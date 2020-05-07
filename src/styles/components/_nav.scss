@@ -2,42 +2,29 @@
     display: flex;
     align-items: center;
     background: transparent;
-    padding: 0 $padding / 2;
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
+    // padding: 0 $padding / 2;
     width: 100%;
     z-index: 1;
-}
 
-.navLogo {
-      display: inline-block;
 }
 
 .navList {
     display: flex;
-    font-size: 16px;
+    font-size: $fontBase;
     justify-content: space-evenly;
-    list-style-type: none;
-    margin-left: auto;
-    width: 700px;
+    padding: 0;
+    width: 100%;
+
+    @include lg {
+        margin: 20px auto 0 auto;
+        max-width: 960px;
+    }
 }
 
 .navLogo a {
     display: inline-block;
     cursor: pointer;
     transition: all .2s ease-in-out;
-}
-
-.navLogo a:hover {
-    transform: scale(1.1);
-}
-
-
-.navLogo a img {
-    height: 50px;
-    width: 50px;
 }
 
 .navList__link {
