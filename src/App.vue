@@ -1,12 +1,12 @@
 <template>
   <div id="app">
     <header>
-        <Nav/>
-      </header>
-      <main class="site__container">
-        <router-view />
-      </main>
-      <!-- <Footer /> -->
+      <Nav />
+    </header>
+    <main class="site__container">
+      <router-view />
+    </main>
+    <!-- <Footer /> -->
   </div>
 </template>
 
@@ -26,10 +26,7 @@ export default {
     
     };
   },
-  methods: {
-   
-  },
-
+  methods: {},
   created() {
     console.log("created");
   },

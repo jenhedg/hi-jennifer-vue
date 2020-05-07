@@ -21,6 +21,7 @@ html {
   box-sizing: border-box;
 }
 #app {
+  background: linear-gradient(45deg, $sage, $white);
   font-family: $roboto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -62,31 +63,11 @@ html {
 
 /*Links*/
 a {
-  color: $yellow;
+  color: $hotpink;
 
   &:hover {
-    color: $hotpink;
+    color: $yellow;
   }
 }
 
-p {
-  font-weight: 100;
-}
-
-/*Main header style*/
-.siteContent__header {
-  margin: 0 auto;
-  text-align: center;
-  font-family: $roboto;
-  font-weight: 700;
-}
-/*Copy style*/
-.siteContent__copy {
-    font-family: $roboto;
-    font-size: 1em;
-    line-height: 26px;
-    flex-basis: auto;
-    flex-grow: 1;
-    flex-shrink: 1;
-}
 

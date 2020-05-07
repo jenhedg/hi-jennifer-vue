@@ -1,21 +1,33 @@
 
 .hero {
+  display: flex;
   font-family: $roboto;
-  text-align: center;
-  margin: 0 auto $spacer * 2;
-  max-width: 1019px;
+  text-align: left;
+  margin-top: 54px;/*offset height of nav*/
+  max-width: 960px;
+  width: 100%;
+
+  @include lg {
+    margin: 0 auto $spacer * 2;
+    width: 90%;
+    max-width: 960px;
+  }
 }
 
 .hero__intro {
   margin: 0 auto;
-  font-weight: 700;
 }
 
 .hero__copy {
     font-size: 1em;
-    line-height: 26px;
+    line-height: 2;
     flex-basis: auto;
     flex-grow: 1;
     flex-shrink: 1;
     text-align: left;
+    margin: 0;
+}
+
+.hero__copy b {
+  font-weight: bold;
 }
