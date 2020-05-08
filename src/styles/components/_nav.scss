@@ -9,7 +9,7 @@
 
 .navList {
     display: flex;
-    font-size: $fontBase;
+    font-size: $smallFont;
     justify-content: space-evenly;
     padding: 0;
     width: 100%;
@@ -20,32 +20,38 @@
     }
 }
 
-.navLogo a {
-    display: inline-block;
-    cursor: pointer;
-    transition: all .2s ease-in-out;
-}
+// .navLogo a {
+//     display: inline-block;
+//     cursor: pointer;
+//     transition: all .2s ease-in-out;
+// }
 
 .navList__link {
     display: inline-block;
+    text-align: center;
 
     @include lg {
         display: inline-block;
     }
-
 }
 
 .navList__link a {
     color: $hotpink;
+    display: inline-block;
     text-decoration: none;
-    transition: all .2s ease-in-out;
+    width: 90px;
 }
 
-.navList__link a:hover {
-  transform: scale(1.1);
-}
+
+
 
 .navList__link .router-link-exact-active {
-    border-bottom: 2px solid darken($hotpink, 3%);
+    background: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='hotpink' stroke-width='2' class='' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+    background-position: bottom;
+    background-repeat: repeat-x;
+    background-size: 20%;
+    border-bottom: 0;
+    padding-bottom: .25em;
+    text-decoration: none;
 }
 

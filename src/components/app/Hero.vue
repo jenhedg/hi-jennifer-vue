@@ -5,18 +5,26 @@
       <h2 class="hero__title">
         I'm a Web Developer in
         <span>🌵</span>
-        <a href="https://en.wikipedia.org/wiki/Tucson,_Arizona" target="_blank">Tucson, Arizona.</a>
+        <a
+          class="waveHover"
+          href="https://en.wikipedia.org/wiki/Tucson,_Arizona"
+          target="_blank"
+        >Tucson, Arizona.</a>
       </h2>
       <div class="hero__contactLinks">
-        <a href="https://www.linkedin.com/in/jhedgcock/" target="_blank">
+        <a
+          class="waveHover hero__icon"
+          href="https://www.linkedin.com/in/jhedgcock/"
+          target="_blank"
+        >
           <i class="hero__icon--withLink fab fa-linkedin"></i>
           LinkedIn
         </a>
-        <a class="hero__icon" href="https://github.com/jenhedg" target="_blank">
+        <a class="waveHover hero__icon" href="https://github.com/jenhedg" target="_blank">
           <i class="hero__icon--withLink fab fa-github"></i>
           Github
         </a>
-        <a class="hero__icon" href="https://codepen.io/sparkleOven" target="_blank">
+        <a class="waveHover hero__icon" href="https://codepen.io/sparkleOven" target="_blank">
           <i class="hero__icon--withLink fab fa-codepen"></i>
           Codepen
         </a>
@@ -24,7 +32,11 @@
       <hr />
       <div class="hero__copy">
         <p>I have four years of experience building responsive webapps, content management systems and markting tools. The bulk of my experience is in the marketing/advertising world, where I have worked with some notable brands to bridge the gap between marketing and technology.</p>
-        <!-- <p>I have proven experience with HTML,CSS/SCSS/, Javascript, jQuery, CMS, React.js, Vue.js, templating engines (Handlebars, Freemarker, Jinja), build tools and task runners (Webpack, NPM, Gulp, Grunt) and version control (Git, Mercurial).</p> -->
+        <p>I have experience with HTML,CSS/SCSS/, Javascript, jQuery, content management systems (Magnolia), React.js, Vue.js, templating engines (Handlebars, Freemarker, Jinja), build tools and task runners (Webpack, NPM, Gulp, Grunt) and version control (Git, Mercurial).</p>
+        <p>
+          I'm seeking my career next opportunity, click
+          <a href="#">here</a> to learn more about me, or scroll down to see some of my work.
+        </p>
         <h3>Here are some of the tech I'm excited about:</h3>
         <ul>
           <li>
@@ -46,10 +58,7 @@
             <b>Machine learning (Ml5.js, TensorFlow, Keras)</b>,
           </li>
         </ul>
-        <p>
-          I'm seeking my career next opportunity, click
-          <a href="#">here</a> to learn more about me, or scroll down to see some of my work.
-        </p>
+
         <!-- <p>
         I have experience with HTML, CSS/SCSS/, Javascript, jQuery, CMS, React.js, Vue.js, templating engines (Handlebars, Freemarker, Jinja), build tools and task runners (Webpack, NPM, Gulp, Grunt) and version control (Git, Mercurial).</p>-->
       </div>
