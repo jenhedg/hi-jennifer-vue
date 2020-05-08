@@ -23,8 +23,13 @@
   text-decoration: none;
 }
 
-.hero__icon {
+.hero__icon--withLink {
   color: $hotpink;
+  padding-right: $spacer / 3;
+}
+
+.hero__icon {
+  margin-right: 3px;
 }
 
 .hero__copy {

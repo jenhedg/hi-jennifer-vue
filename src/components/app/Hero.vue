@@ -6,27 +6,27 @@
         I'm a Web Developer in
         <span>🌵</span>
         <a
-          class="waveHover"
+          class="hover--wave"
           href="https://en.wikipedia.org/wiki/Tucson,_Arizona"
           target="_blank"
         >Tucson, Arizona.</a>
       </h2>
       <div class="hero__contactLinks">
         <a
-          class="waveHover hero__icon"
+          class="hero__icon--withLink"
           href="https://www.linkedin.com/in/jhedgcock/"
           target="_blank"
         >
-          <i class="hero__icon--withLink fab fa-linkedin"></i>
-          LinkedIn
+          <i class="hero__icon fab fa-linkedin"></i>
+          <span class="hover--wave">LinkedIn</span>
         </a>
-        <a class="waveHover hero__icon" href="https://github.com/jenhedg" target="_blank">
-          <i class="hero__icon--withLink fab fa-github"></i>
-          Github
+        <a class="hero__icon--withLink" href="https://github.com/jenhedg" target="_blank">
+          <i class="hero__icon fab fa-github"></i>
+          <span class="hover--wave">Github</span>
         </a>
-        <a class="waveHover hero__icon" href="https://codepen.io/sparkleOven" target="_blank">
-          <i class="hero__icon--withLink fab fa-codepen"></i>
-          Codepen
+        <a class="hero__icon--withLink" href="https://codepen.io/sparkleOven" target="_blank">
+          <i class="hero__icon fab fa-codepen"></i>
+          <span class="hover--wave">Codepen</span>
         </a>
       </div>
       <hr />
@@ -35,7 +35,7 @@
         <p>I have experience with HTML,CSS/SCSS/, Javascript, jQuery, content management systems (Magnolia), React.js, Vue.js, templating engines (Handlebars, Freemarker, Jinja), build tools and task runners (Webpack, NPM, Gulp, Grunt) and version control (Git, Mercurial).</p>
         <p>
           I'm seeking my career next opportunity, click
-          <a href="#">here</a> to learn more about me, or scroll down to see some of my work.
+          <a class="hover--wave" href="#">here</a> to learn more about me, or scroll down to see some of my work.
         </p>
         <h3>Here are some of the tech I'm excited about:</h3>
         <ul>
