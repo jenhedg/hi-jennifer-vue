@@ -2,7 +2,6 @@
     display: flex;
     align-items: center;
     background: transparent;
-    // padding: 0 $padding / 2;
     width: 100%;
     z-index: 1;
 
@@ -37,7 +36,7 @@
 }
 
 .navList__link a {
-    color: $black;
+    color: $hotpink;
     text-decoration: none;
     transition: all .2s ease-in-out;
 }
@@ -47,7 +46,6 @@
 }
 
 .navList__link .router-link-exact-active {
-    color: $hotpink;
-    border-bottom: 1px solid $hotpink;
+    border-bottom: 2px solid darken($hotpink, 3%);
 }
 

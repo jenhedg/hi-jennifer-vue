@@ -49,3 +49,8 @@ $screen-xl-min: 1200px;
        @content;
    }
 }
+
+//Transition
+@mixin transition($args...) {
+  transition: $args;
+}

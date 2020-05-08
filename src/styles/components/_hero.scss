@@ -18,6 +18,10 @@
   margin: 0 auto;
 }
 
+.hero__title a {
+  text-decoration: none;
+}
+
 .hero__copy {
     font-size: 1em;
     line-height: 2;
@@ -30,4 +34,10 @@
 
 .hero__copy b {
   font-weight: bold;
+}
+
+.hero__contactLinks a {
+  font-family: $monospace;
+  text-decoration: none;
+  font-weight: 600;
 }

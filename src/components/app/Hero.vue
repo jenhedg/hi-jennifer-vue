@@ -3,33 +3,27 @@
     <div class="hero__intro">
       <h1>Hi, I'm Jennifer.</h1>
       <h2 class="hero__title">
-        I'm a Web Developer in 🌵
-        <a
-          href="https://en.wikipedia.org/wiki/Tucson,_Arizona"
-          target="_blank"
-          style="text-decoration: underline;"
-        >Tucson, Arizona.</a>
+        I'm a Web Developer in
+        <span>🌵</span>
+        <a href="https://en.wikipedia.org/wiki/Tucson,_Arizona" target="_blank">Tucson, Arizona.</a>
       </h2>
       <div class="hero__contactLinks">
         <a href="https://www.linkedin.com/in/jhedgcock/" target="_blank">
-          <i class="fab fa-linkedin"></i>LinkedIn
+          <i class="hero__icon--withLink fab fa-linkedin"></i>
+          LinkedIn
         </a>
-        <a href="https://github.com/jenhedg" target="_blank">
-          <i class="fab fa-github"></i>
+        <a class="hero__icon" href="https://github.com/jenhedg" target="_blank">
+          <i class="hero__icon--withLink fab fa-github"></i>
           Github
         </a>
-        <a href="https://codepen.io/sparkleOven" target="_blank">
-          <i class="fab fa-codepen"></i>
+        <a class="hero__icon" href="https://codepen.io/sparkleOven" target="_blank">
+          <i class="hero__icon--withLink fab fa-codepen"></i>
           Codepen
         </a>
       </div>
       <hr />
       <div class="hero__copy">
-        <p></p>
-        <p>
-          I have four years of front end web development experience in the digital marketing/advertising industry.
-          I've worked alongside some notable brands around the world to build responsive webapps, content management systems and markting tools.
-        </p>
+        <p>I have four years of experience building responsive webapps, content management systems and markting tools. The bulk of my experience is in the marketing/advertising world, where I have worked with some notable brands to bridge the gap between marketing and technology.</p>
         <!-- <p>I have proven experience with HTML,CSS/SCSS/, Javascript, jQuery, CMS, React.js, Vue.js, templating engines (Handlebars, Freemarker, Jinja), build tools and task runners (Webpack, NPM, Gulp, Grunt) and version control (Git, Mercurial).</p> -->
         <h3>Here are some of the tech I'm excited about:</h3>
         <ul>

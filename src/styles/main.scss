@@ -32,8 +32,6 @@ html {
 .site__container {
   position: relative;
   overflow: hidden;
-  // margin: 50px auto;
-  // padding: 0 20px;
   width: 100%;
 
   @include sm {
@@ -64,9 +62,11 @@ html {
 /*Links*/
 a {
   color: $hotpink;
+  padding: .25em;
 
   &:hover {
-    color: $yellow;
+    @include transition(background .3s ease-in-out);
+    border-bottom: 2px solid darken($hotpink, 3%);
   }
 }
 
