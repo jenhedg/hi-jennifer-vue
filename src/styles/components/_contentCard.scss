@@ -4,6 +4,7 @@ $contentCardGradient: linear-gradient(45deg, $hotpink, $burntOrange);
   background-color: $white;
   border-radius: 10px;
   max-width: 100%;
+  margin: 0 0 $spacer 0;
 
   @include lg {
     backface-visibility: hidden;

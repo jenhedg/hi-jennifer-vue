@@ -1,5 +1,5 @@
 <template>
-  <section class="home site__container">
+  <section class="home">
     <Hero />
     <div class="contentGroup__inner">
       <ContentCard
