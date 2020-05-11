@@ -4,13 +4,13 @@
   font-family: $sansSerif;
   text-align: left;
   margin-bottom: $spacer;
+  margin: $spacer *2 auto $spacer * 2 auto;
   max-width: 960px;
   width: 100%;
 
   @include lg {
-    margin: 0 auto $spacer * 2;
-    width: 90%;
-    max-width: 960px;
+    text-align: center;
+    margin: $spacer auto $spacer * 2 auto;
   }
 }
 
@@ -21,12 +21,11 @@
 }
 
 .hero__intro h1 {
-  font-family: $smallFont;
   font-family: $sansSerif;
   font-weight: $bold;
 
   @include lg {
-    font-size: $lgFont;
+    font-size: 3.85em;
   }
 }
 
@@ -44,21 +43,43 @@
   text-decoration: none;
 }
 
+.hero__copy {
+  font-family: $serif;
+}
+
 .hero__contactLinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   margin: $spacer 0;
+
+  @include rwd($screen-sm-min) {
+    flex-direction: row;
+  }
 }
 
 .hero__contactLinks a {
-  font-size: $smallFont;
+  font-size: $fontBase;
   font-family: $monospace;
   text-decoration: none;
   font-weight: 900;
   line-height: 1;
+  text-align: left;
+
+  @include lg {
+    font-size: $smallFont;
+    text-align: center;
+  }
 }
 
 .hero__icon--withLink {
   color: $hotpink;
-  padding-right: $spacer / 3;
+  flex-basis: calc(100% / 3);
+  text-align: center;
+
+  @include lg {
+    min-width: 100px;
+  }
 }
 
 .hero__icon {
