@@ -21,9 +21,13 @@
 }
 
 .hero__intro h1 {
-  font-size: $lgFont;
+  font-family: $smallFont;
   font-family: $sansSerif;
   font-weight: $bold;
+
+  @include lg {
+    font-size: $lgFont;
+  }
 }
 
 .hero__intro h2 {
@@ -38,6 +42,18 @@
 .hero__intro a {
   color: $hotpink;
   text-decoration: none;
+}
+
+.hero__contactLinks {
+  margin: $spacer 0;
+}
+
+.hero__contactLinks a {
+  font-size: $smallFont;
+  font-family: $monospace;
+  text-decoration: none;
+  font-weight: 900;
+  line-height: 1;
 }
 
 .hero__icon--withLink {
@@ -64,14 +80,15 @@
   font-weight: bold;
 }
 
-.hero__contactLinks {
-  margin: $spacer 0;
+.hero__feature {
+  font-family: $sansSerif;
 }
 
-.hero__contactLinks a {
-  font-size: $smallFont;
-  font-family: $monospace;
-  text-decoration: none;
-  font-weight: 900;
-  line-height: 1;
+.hero__feature h3 {
+  font-family: $sansSerif;
+  font-weight: $regular;
+}
+
+.hero__feature ul {
+  font-weight: $light
 }

@@ -9,8 +9,7 @@
           class="hover--wave"
           href="https://en.wikipedia.org/wiki/Tucson,_Arizona"
           target="_blank"
-          >Tucson, Arizona.</a
-        >
+        >Tucson, Arizona.</a>
       </h2>
       <div class="hero__contactLinks">
         <a
@@ -21,19 +20,11 @@
           <i class="hero__icon fab fa-linkedin"></i>
           <span class="hover--wave">LinkedIn</span>
         </a>
-        <a
-          class="hero__icon--withLink"
-          href="https://github.com/jenhedg"
-          target="_blank"
-        >
+        <a class="hero__icon--withLink" href="https://github.com/jenhedg" target="_blank">
           <i class="hero__icon fab fa-github"></i>
           <span class="hover--wave">Github</span>
         </a>
-        <a
-          class="hero__icon--withLink"
-          href="https://codepen.io/sparkleOven"
-          target="_blank"
-        >
+        <a class="hero__icon--withLink" href="https://codepen.io/sparkleOven" target="_blank">
           <i class="hero__icon fab fa-codepen"></i>
           <span class="hover--wave">Codepen</span>
         </a>
@@ -57,20 +48,17 @@
           <a class="hover--wave" href="#">here</a> to learn more about me, or
           scroll down to see some of my work.
         </p>
-        <h3>Here are some of the tech I'm excited about:</h3>
-        <ul>
-          <li><b>React.js</b>,</li>
-          <li><b>Vue.js</b>,</li>
-          <li>
-            <b>Data Vizualizations(D3.js)</b>
-          </li>
-          <li><b>JAMStack/Gatsby</b>,</li>
-          <li><b>VR(AFrame)</b>,</li>
-          <li><b>Machine learning (Ml5.js, TensorFlow, Keras)</b>,</li>
-        </ul>
-
-        <!-- <p>
-        I have experience with HTML, CSS/SCSS/, Javascript, jQuery, CMS, React.js, Vue.js, templating engines (Handlebars, Freemarker, Jinja), build tools and task runners (Webpack, NPM, Gulp, Grunt) and version control (Git, Mercurial).</p>-->
+        <!-- <div class="hero__feature">
+          <h3>Here are some of the tech I'm excited about:</h3>
+          <ul>
+            <li>React.js</li>
+            <li>Vue.js</li>
+            <li>Data Vizualizations(D3.js)</li>
+            <li>JAMStack/Gatsby</li>
+            <li>VR(AFrame)</li>
+            <li>Machine learning (ml5.js, TensorFlow)</li>
+          </ul>
+        </div>-->
       </div>
     </div>
   </section>
