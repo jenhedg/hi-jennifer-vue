@@ -27,8 +27,8 @@ import ContentCard from "@/components/app/ContentCard.vue";
 export default {
   name: "Home",
   components: {
-    Hero,                        
-    ContentCard
+    Hero,
+    ContentCard,
   },
 };
 </script>

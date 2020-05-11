@@ -21,15 +21,18 @@
 }
 
 .hero__intro h1 {
-  font-size: $siteContentHeader;
+  font-size: $lgFont;
   font-family: $sansSerif;
-  font-weight: bold;
+  font-weight: $bold;
+}
+
+.hero__intro h2 {
+  font-size: $smallFont;
 }
 
 .hero__intro h1,
-.hero__intro h2,
-.hero__contactLinks {
-  margin: 0 0 $spacer /2 0;
+.hero__intro h2 {
+  margin: 0;
 }
 
 .hero__intro a {
@@ -61,8 +64,14 @@
   font-weight: bold;
 }
 
+.hero__contactLinks {
+  margin: $spacer 0;
+}
+
 .hero__contactLinks a {
+  font-size: $smallFont;
   font-family: $monospace;
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 900;
+  line-height: 1;
 }

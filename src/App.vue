@@ -22,9 +22,7 @@ export default {
     // Footer,
   },
   data: () => {
-    return {
-    
-    };
+    return {};
   },
   methods: {},
   created() {
