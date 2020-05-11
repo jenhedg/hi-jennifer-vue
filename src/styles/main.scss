@@ -28,6 +28,21 @@ html {
   overflow: hidden;
 }
 
+/*Bg */
+.bg__river--left {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  width: 443px;
+  height: 304px;
+
+  @include lg {
+    left: -90px;
+  }
+
+}
+
 /*Global Layout Rules*/
 .site__container {
   position: relative;
@@ -73,11 +88,6 @@ a {
   text-decoration: none;
   font-size: $smallFont;
 }
-
-.hover--grow:hover {
- 
-}
-
 
 /* Underline From Center */
 .hover--grow {

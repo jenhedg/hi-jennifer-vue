@@ -1,9 +1,9 @@
 <template>
   <div id="app">
-    <svg width="443" height="304" viewBox="0 0 443 304" xmlns="http://www.w3.org/2000/svg">
+    <svg class="bg__river--left" viewBox="0 0 443 304" xmlns="http://www.w3.org/2000/svg">
       <defs>
         <linearGradient x1="74.674%" y1="40.205%" x2="20.098%" y2="59.129%" id="a">
-          <stop stop-color="#EA3D96" offset="0%" />
+          <stop stop-color="#DD855C" offset="0%" />
           <stop stop-color="#EA3D96" offset="100%" />
         </linearGradient>
       </defs>
