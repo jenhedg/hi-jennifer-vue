@@ -31,10 +31,15 @@
 }
 
 .navList__link a {
-    color: $hotpink;
-    display: inline-block;
+    @include textShadow(1px, 0, 2px, $hotpink);
+    color: $white;
     text-decoration: none;
     width: auto;
+
+    @include sm {
+        @include textShadow();
+        color: $hotpink;
+    }
 }
 
 .navList__link .router-link-exact-active {
