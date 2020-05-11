@@ -1,7 +1,7 @@
 
 .hero {
   display: flex;
-  font-family: $roboto;
+  font-family: $sansSerif;
   text-align: left;
   margin-bottom: $spacer;
   max-width: 960px;
@@ -15,10 +15,24 @@
 }
 
 .hero__intro {
+  font-family: $sansSerif;
+  font-weight: regular;
   margin: 0 auto;
 }
 
-.hero__title a {
+.hero__intro h1 {
+  font-size: $siteContentHeader;
+  font-family: $sansSerif;
+  font-weight: bold;
+}
+
+.hero__intro h1,
+.hero__intro h2,
+.hero__contactLinks {
+  margin: 0 0 $spacer /2 0;
+}
+
+.hero__intro a {
   color: $hotpink;
   text-decoration: none;
 }
@@ -33,8 +47,9 @@
 }
 
 .hero__copy {
-    font-size: 1em;
-    line-height: 2;
+    font-family: $serif;
+    font-size: $fontBase;
+    line-height: 1.25;
     flex-basis: auto;
     flex-grow: 1;
     flex-shrink: 1;

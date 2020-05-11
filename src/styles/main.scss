@@ -1,5 +1,6 @@
 //Global
 @import 'global/_variables.scss';
+@import 'global/fonts/_fonts.scss';
 @import 'global//mixins/_mixins.scss';
 @import 'global/mixins/_flexboxMixins.scss';
 
@@ -22,7 +23,6 @@ html {
 }
 #app {
   background: linear-gradient(45deg, $sage, $white);
-  font-family: $roboto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow: hidden;
@@ -68,7 +68,7 @@ a {
 /*Links*/
 
 a {
-  color: $hotpink;
+  color: red;
   padding-bottom: .25em;
   text-decoration: none;
   font-size: $smallFont;

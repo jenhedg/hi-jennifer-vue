@@ -2,7 +2,7 @@
   <section class="hero">
     <div class="hero__intro">
       <h1>Hi, I'm Jennifer.</h1>
-      <h2 class="hero__title">
+      <h2>
         I'm a Web Developer in
         <span>🌵</span>
         <a
