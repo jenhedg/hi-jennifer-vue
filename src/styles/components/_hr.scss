@@ -1,0 +1,11 @@
+.hr {
+  display: none;
+
+  @include sm {
+    background-color: $hotpink;
+    border-style: none;
+    display: block;
+    height: 1px;
+    width: 100%;
+  }
+}

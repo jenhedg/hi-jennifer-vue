@@ -11,7 +11,7 @@
           target="_blank"
         >Tucson, Arizona.</a>
       </h2>
-      <hr />
+      <Hr />
       <div class="hero__contactLinks">
         <a class="hero__icon--withLink" href="https://github.com/jenhedg" target="_blank">
           <i class="hero__icon fab fa-github"></i>
@@ -36,12 +36,12 @@
 
 <script>
 // @ is an alias to /src
-// import Button from "@/components/app/Button.vue";
+import Hr from "@/components/app/Hr.vue";
 
 export default {
   name: "Hero",
   components: {
-    // Button
+    Hr
   },
   methods: {},
   props: {
