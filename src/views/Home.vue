@@ -7,7 +7,8 @@
         title="Card Title"
         copy="Lorem Ipsum dum dum doo doo. I type gibberish and thingies happen on screeny."
         href="http://www.google.com"
-        btnLabel="Go!"
+        btnLabel="See Gitbub"
+        btnLabelTwo="View Site"
       />
       <ContentCard
         thumbnail="https://centsai.com/wp-content/uploads/2018/04/Financial-literacy-programs-for-the-poor-Daye-Deura-1200x825.jpg"

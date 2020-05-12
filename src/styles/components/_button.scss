@@ -1,49 +1,77 @@
 .btn {
-    border: none;
-    font-family: $sansSerif;
-    font-size: 1em;
-    color: inherit;
     background: none;
+    border: none;
+    color: inherit;
     cursor: pointer;
-    padding: 25px 80px;
-    display: inline-block;
-    text-transform: uppercase;
+    display: block;
+    font-family: $sansSerif;
+    font-size: $smallFont;
+    font-weight: bolder;
     letter-spacing: 1px;
-    font-weight: 700;
     outline: none;
+    margin: $spacer / 4 0;
+    padding: $spacer / 2;
     position: relative;
     transition: all 0.3s; 
     text-align: center;  
-}
-
-.btn:after {
-    content: '';
-    position: absolute;
-    z-index: -1;
-    -webkit-transition: al  l 0.3s;
-    -moz-transition: all 0.3s;
-    transition: all 0.3s;
+    text-transform: uppercase;
 }
 
 /*Color Mods*/
 .btn--pink {
-    border: 4px double $white;
-    border-radius: 10px;
-    background: $sage;
-    color: $white;
+    border: 2px solid $hotpink;
+    background: transparent;
+    color: $hotpink;
     text-decoration: none;
-
-    &:hover{
-        background: $white;
-        border: 4px double $sage;
-        color: $sage;
-    }
 }
 
  /*Size Mods*/
  .btn--defSize {
     padding: $padding / 2 $padding;
-    width: 250px;
+    width: 100%;
+
+    @include lg {
+        width: 250px;
+    }
 }
 
+/* HoverSweep To Right */
+.hover--sweepRight {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+.hover--sweepRight:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: $hotpink;
+  transform: scaleX(0);
+  transform-origin: 0 50%;
+  transition-property: transform;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out; 
+}
+.hover--sweepRight:hover, 
+.hover--sweepRight:focus, 
+.hover--sweepRight:active {
+  color: white;
+}
+.hover--sweepRight:hover:before, 
+.hover--sweepRight:focus:before, 
+.hover--sweepRight:active:before {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
  

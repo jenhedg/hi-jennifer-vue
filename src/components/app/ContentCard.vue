@@ -1,25 +1,32 @@
 <template>
-  <section class="">
+  <section class>
     <div class="contentCard contentCard--horizontal">
       <div class="contentCard__imgWrap">
         <img class="contentCard__img" :src="thumbnail" alt="img" />
       </div>
       <div class="siteContent contentCard--underContent">
-        <a class="siteContent__title">
-          {{ title }}
-        </a>
-        <div class="siteContent__description">
-          <p>
-            {{ copy }}
-          </p>
+        <a class="contentCard__title">{{ title }}</a>
+        <div class="contentCard__description">
+          <p>{{ copy }}</p>
         </div>
-        <div class="siteContent__ctaWrapper">
+        <div v-if="btnLabelTwo === String" class="contentCard__btnWrap">
           <a
-            class="btn btn--defSize btn--pink ctaFeature__btn"
+            class="btn btn--pink btn--defSize hover--sweepRight ctaFeature__btn"
             :href="href"
             target="_blank"
-            >{{ btnLabel }}</a
-          >
+          >{{ btnLabel }}</a>
+        </div>
+        <div v-else-if=" btnLabelTwo !== undefined" class="contentCard__btnWrap">
+          <a
+            class="btn btn--pink btn--defSize hover--sweepRight ctaFeature__btn"
+            :href="href"
+            target="_blank"
+          >{{ btnLabel }}</a>
+          <a
+            class="btn btn--pink btn--defSize hover--sweepRight ctaFeature__btn"
+            :href="href"
+            target="_blank"
+          >{{ btnLabelTwo }}</a>
         </div>
       </div>
     </div>
@@ -29,7 +36,6 @@
 <script>
 export default {
   name: "SplitCta",
-
   components: {},
   props: {
     thumbnail: String,
@@ -37,7 +43,11 @@ export default {
     copy: String,
     href: String,
     btnLabel: String,
+    btnLabelTwo: String,
+
   },
+  methods: {
+  }
 };
 </script>
 

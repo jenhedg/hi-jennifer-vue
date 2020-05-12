@@ -2,13 +2,11 @@ $contentCardGradient: linear-gradient(45deg, $hotpink, $burntOrange);
 
 .contentCard{
   background-color: $white;
-  border-radius: 10px;
   max-width: 100%;
   margin: 0 0 $spacer 0;
 
   @include lg {
     backface-visibility: hidden;
-    border-radius: 10px;
     box-shadow: $boxShadow;
     display: flex;
     flex-direction: column;
@@ -22,13 +20,6 @@ $contentCardGradient: linear-gradient(45deg, $hotpink, $burntOrange);
   }
 }
 
-.contentCard:hover {
-  background: $contentCardGradient;
-  box-shadow: $boxShadow;
-  cursor: pointer;
-  transition: 1s ease-in-out;
-}
-
 .contentCard--horizontal {
   flex-direction: row;
   flex-basis: calc(100% - 30px);
@@ -39,17 +30,14 @@ $contentCardGradient: linear-gradient(45deg, $hotpink, $burntOrange);
 }
 
 .contentCard--underContent {
-
   flex: 1 0 50%;
   margin: auto;
   max-width: 100%;
 }
 
 .contentCard__imgWrap {
-
   @include lg {
     border-bottom: solid 1px #dadada;
-    border-radius: 10px 0 0 10px;
     overflow: hidden;
     position: relative;
     transition: border-color .2s linear;
@@ -60,13 +48,31 @@ $contentCardGradient: linear-gradient(45deg, $hotpink, $burntOrange);
 }
 
 .contentCard__img {
-  border-radius: 10px 10px 0 0;
   display: block;
   height: 100%;
   width: 100%;
   object-fit: cover;
+}
 
-  @include lg {
-    border-radius: 10px 0 0 10px;
+.contentCard__title,
+.contentCard__description {
+  font-family: $sansSerif;
+}
+
+.contentCard__title {
+  @include textShadow(1px, 1px, 1px, $lightGray);
+  color: $hotpink;
+  font-size: $medFont;
+}
+
+.contentCard__description {
+    font-weight: 100;
+}
+
+.contentCard__btnWrap {
+  text-align: center;
+
+  @include sm {
+    text-align: left;
   }
 }
