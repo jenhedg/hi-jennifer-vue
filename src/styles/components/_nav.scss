@@ -31,15 +31,9 @@
 }
 
 .navList__link a {
-    @include textShadow(1px, 0, 2px, $hotpink);
-    color: $white;
+    color: $darkGray;
     text-decoration: none;
     width: auto;
-
-    @include sm {
-        @include textShadow();
-        color: $hotpink;
-    }
 }
 
 .navList__link .router-link-exact-active {

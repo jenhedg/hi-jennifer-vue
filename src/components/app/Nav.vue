@@ -4,15 +4,6 @@
       <li class="navList__link">
         <router-link class="hover--grow" to="/" role="button" aria-label="menu">Home</router-link>
       </li>
-      <!-- <li class="navList__link">
-        <router-link
-          class="hover--grow"
-          to="/work"
-          role="button"
-          aria-label="menu"
-          >Work</router-link
-        >
-      </li>-->
       <li class="navList__link">
         <router-link class="hover--grow" to="/resume" role="button" aria-label="menu">Resume</router-link>
       </li>

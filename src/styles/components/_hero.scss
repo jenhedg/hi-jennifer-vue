@@ -23,6 +23,7 @@
 .hero__intro h1 {
   font-family: $sansSerif;
   font-weight: $bold;
+  @include textShadow(0, 1px, 1px, $darkGray);
 
   @include lg {
     font-size: 3.85em;
@@ -30,12 +31,22 @@
 }
 
 .hero__intro h2 {
-  font-size: $smallFont;
+  @include textShadow(0, 1px, 1px, $lightGray);
+  font-size: 1.25em;
+
+  @include lg {
+    font-size: 1.4em;
+  }
 }
 
 .hero__intro h1,
 .hero__intro h2 {
+  color: $white;
   margin: 0;
+
+  @include sm {
+    color: $black;
+  }
 }
 
 .hero__intro a {
@@ -49,17 +60,18 @@
 
 .hero__contactLinks {
   display: flex;
-  flex-direction: row;
   justify-content: center;
   margin: $spacer 0;
-
-  @include rwd($screen-sm-min) {
-    flex-direction: row;
+  flex-direction: column;
+  font-size: $smallFont;
+  
+  @include md {
+      flex-direction: row;
   }
 }
 
 .hero__contactLinks a {
-  font-size: $fontBase;
+  @include textShadow(0, 1px, 1px, $lightGray);
   font-family: $monospace;
   text-decoration: none;
   font-weight: 900;
@@ -67,7 +79,6 @@
   text-align: left;
 
   @include lg {
-    font-size: $smallFont;
     text-align: center;
   }
 }
