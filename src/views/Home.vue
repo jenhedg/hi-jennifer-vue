@@ -3,7 +3,7 @@
     <Hero />
     <div class="contentGroup__inner">
       <ContentCard
-        thumbnail="https://centsai.com/wp-content/uploads/2018/04/Financial-literacy-programs-for-the-poor-Daye-Deura-1200x825.jpg"
+        thumbnail="https://www.rollingstone.com/wp-content/uploads/2018/06/rs-192699-MCDBIMA_EC007_H.jpg"
         title="Card Title"
         copy="Lorem Ipsum dum dum doo doo. I type gibberish and thingies happen on screeny."
         href="http://www.google.com"
