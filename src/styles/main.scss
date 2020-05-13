@@ -14,7 +14,7 @@
 @import 'components/_footer.scss';
 
 // Views
-// @import 'views/resume.scss';
+@import 'views/resume.scss';
 
 *,
 html {
@@ -86,7 +86,7 @@ a {
 
 /*Links*/
 a {
-  color: red;
+  color: $hotpink;
   padding-bottom: .25em;
   text-decoration: none;
 }

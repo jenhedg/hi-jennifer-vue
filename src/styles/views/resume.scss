@@ -1,0 +1,41 @@
+.resume {
+  background: $white;
+  font-family: $sansSerif;
+  font-weight: 600;
+  padding: $spacer;
+  margin: 0 auto;
+  width: 960px;
+}
+
+.resume__title {
+  font-size: $medFont;
+  margin: 0;
+}
+
+
+.resume__contact {
+  display: flex;
+  flex-direction: row;
+  font-weight: $regular;
+
+  @include sm {
+    flex-direcion: column;
+  }
+}
+
+.resume__contact ul {
+  // display: flex;
+  padding: 0;
+  list-style-type: none;
+  margin: 0;    
+  flex-basis: calc(100% / 2);
+  max-width: calc(100% / 2);
+}
+
+.resume__contact ul li {
+    // flex-basis: calc(100% / 3);
+    // max-width: calc(100% / 3);
+    // text-align: left;
+    // margin: auto;
+    padding: $spacer / 6;
+}

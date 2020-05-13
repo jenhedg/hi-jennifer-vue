@@ -1,18 +1,35 @@
 <template>
-  <section class="resume" style="max-width: 960px; margin: 0 auto;">
-    <h1>Jennifer Hedgcock</h1>
-    <div class="siteContainer">
-      <ul>
-        <li>520.400.2722</li>
-        <li>jennifernhf@gmail.com</li>
-        <li>hi-jennifer.com</li>
-      </ul>
+  <section class="resume">
+    <div class="resume__header">
+      <h1 class="resume__title">Jennifer Hedgcock</h1>
+      <div class="resume__contact">
+        <ul>
+          <li>Tucson, Arizona | 520.400.2722</li>
+          <li>
+            Email:
+            <a href="#" target="_blank">jennifernhf@gmail.com</a>
+          </li>
+          <li>
+            Website:
+            <a href="#" target="_blank">hi-jennifer.com</a>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href="#" target="_blank">LinkedIn</a>
+          </li>
+          <li>
+            <a href="#" target="_blank">Github</a>
+          </li>
+          <li>
+            <a href="#" target="_blank">Codepen</a>
+          </li>
+        </ul>
+      </div>
     </div>
     <hr style="hr" />
-
     <h2>Summary</h2>
     <p>
-      Summary
       Front End Web Developer with a customer service background and over 4 years of experience helping clients to bridge the gap between tech and marketing.
       Experience with HTML, CSS/SCSS/, Javascript, jQuery, CMS, React.js, Vue.js, templating engines (Handlebars, Freemarker, Jinja), build tools and task runners (Webpack, NPM, Gulp, Grunt) and version control (Git, Mercurial).
     </p>
