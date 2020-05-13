@@ -19,10 +19,18 @@
   margin: 0 auto;
 }
 
+.hero__intro h1, 
+.hero__intro h2 {
+  @include textShadow(0, 1px, 0, $darkGray);
+
+  @include md {
+    text-shadow: none;
+  }
+}
+
 .hero__intro h1 {
   font-family: $sansSerif;
   font-weight: $bold;
-  @include textShadow(0, 1px, 1px, $darkGray);
 
   @include lg {
     font-size: 3.85em;
@@ -30,7 +38,6 @@
 }
 
 .hero__intro h2 {
-  @include textShadow(0, 1px, 1px, $lightGray);
   font-size: 1.25em;
 
   @include lg {
@@ -70,7 +77,7 @@
 }
 
 .hero__contactLinks a {
-  @include textShadow(0, 1px, 1px, $lightGray);
+  @include textShadow(1px, 1px, 0, $lightGray);
   font-family: $monospace;
   text-decoration: none;
   font-weight: 900;
@@ -79,6 +86,7 @@
 
   @include lg {
     text-align: center;
+    text-shadow: none;
   }
 }
 

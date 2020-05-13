@@ -28,7 +28,6 @@ html {
 }
 
 /*Bg */
-
 .bg__river--left {
     content: '';
     background: url("~@/assets/images/bg-river-left.svg") center/cover no-repeat;
@@ -46,7 +45,6 @@ html {
       left: -90px;
     }
 }
-
 
 /*Global Layout Rules*/
 .site__container {
@@ -92,7 +90,6 @@ a {
   text-decoration: none;
   // font-size: $smallFont;
 }
-
 
 /* Underline From Center */
 .hover--grow {
