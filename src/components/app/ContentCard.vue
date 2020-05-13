@@ -14,14 +14,16 @@
             class="btn btn--pink btn--defSize hover--sweepRight ctaFeature__btn"
             :href="href"
             target="_blank"
-          >{{ btnLabel }}</a>
+            >{{ btnLabel }}</a
+          >
         </div>
         <a
           v-if="btnLabelTwo !== undefined"
           class="btn btn--pink btn--defSize hover--sweepRight ctaFeature__btn"
           :href="href"
           target="_blank"
-        >{{ btnLabelTwo }}</a>
+          >{{ btnLabelTwo }}</a
+        >
       </div>
     </div>
   </section>
@@ -36,7 +38,7 @@ export default {
     copy: String,
     href: String,
     btnLabel: String,
-    btnLabelTwo: String
+    btnLabelTwo: String,
   },
 };
 </script>

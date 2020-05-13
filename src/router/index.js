@@ -13,11 +13,6 @@ const routes = [
       title: "Home",
     },
   },
-  // {
-  //   path: "/work",
-  //   name: "Work",
-  //   component: () => import(/* webpackChunkName: "work" */ "../views/Work.vue"),
-  // },
   {
     path: "/resume",
     name: "Resume",
