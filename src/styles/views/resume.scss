@@ -55,7 +55,7 @@
 }
 
 .resume__contact ul li {
-    padding: $spacer / 6;
+  padding: $spacer / 6;
 }
 
 //disable :focus, :active style for to non-nav links
@@ -94,7 +94,7 @@
     padding: 0;
 }
 
-.resume__techlist ul li {
+.resume__techlist .resume__techItem {
   margin-left: 1.25em;  
 }
 
