@@ -8,7 +8,7 @@
   max-width: 960px;
 
   @include lg {
-    padding: $spacer * 2;
+    padding: $spacer * 3;
   }
 }
 
@@ -60,8 +60,49 @@
   padding-right: 3px;
 }
 
-.resume__summary {
+.resume__copy {
+  font-size: $fontBase;
+  font-weight: 300;
+  line-height: 1.25;   
+}
+
+.resume__techlist{
+  font-weight: 300;
+}
+
+.resume__techlist ul {
+    margin: 0; 
+    padding: 0;
+}
+
+.resume__techlist ul li {
+  margin-left: $spacer;  
+}
+
+.resume__techlist h3 {
+  margin: 0 0 $spacer /2 0;
+}
+
+.resume__techlist h3 .fas  {
+  color: $hotpink;
+}
+
+
+.resume__category {
+  @include textShadow(1px, 1px, 1px, $lightGray);  
+  color: $black;
   font-size: $medFont;
-  font-weight: 300
-  ;
+  margin: $spacer / 2 0;
+}
+
+.resume__pos h3, h4, h5 {
+  margin: $spacer / 3 0;
+}
+
+.resume__pos h3 {
+  font-weight: 500; 
+}
+
+.resume__pos h3 span {
+  font-weight: 300;
 }

@@ -33,57 +33,61 @@
     </div>
     <hr class="hr" />
     <h2 class="resume__category">Summary</h2>
-    <p class="resume__copy">
-      Front End Web Developer with a customer service background and over 4 years of experience helping clients to bridge the gap between tech and marketing.
-      Experience with HTML, CSS/SCSS/, Javascript, jQuery, CMS, React.js, Vue.js, templating engines (Handlebars, Freemarker, Jinja), build tools and task runners (Webpack, NPM, Gulp, Grunt) and version control (Git, Mercurial).
-    </p>
+    <p
+      class="resume__copy"
+    >I am a Front End Web Developer with a customer service and digital marketing background. I have over 4 years of experience helping clients to bridge the gap between tech and marketing using modern web technologies.</p>
+    <div class="resume__techlist">
+      <ul class>
+        <h3>Technical Experience</h3>
+        <li>HTML, CSS/SCSS/Less, Javascript, jQuery, React.js, Vue.js</li>
+        <li>Templating engines&mdash; Handlebars, Freemarker, Jinja</li>
+        <li>Build tools and task runners&mdash; Webpack, NPM, Gulp, Grunt</li>
+        <li>Version control&mdash; Git, Mercurial</li>
+      </ul>
+    </div>
     <h2 class="resume__category">Experience</h2>
     <div class="resume__pos">
-      <h3>Front-End Web Developer</h3>
-      <h4>Crescendo Collective</h4>
+      <h3>
+        Front-End Web Developer,
+        <span>Crescendo Collective</span>
+      </h3>
       <h5>Feb 2016 - Mar 2020</h5>
       <p class="resume__copy">
-        Interacted daily with client-led and internal teams, including offshore QA teams Programmed enterprise-level webapps, microsites and marketing tools Integrated front-end with Magnolia CMS and Java backend
-        Led daily/weekly releases and deployment processes
-        Created documentation for both clients and internal teams
+        Worked daily with client-led and internal teams, including offshore QA teams. Programmed enterprise-level webapps, microsites and marketing tools. Integrated front-end with Magnolia CMS and Java backend.
+        Led daily/weekly releases and deployment processes.
+        Created documentation and style guides for both clients and internal teams.
       </p>
     </div>
     <div class="resume__pos">
-      <h3>Spanish Tutor</h3>
-      <h4>Wyzant</h4>
+      <h3>
+        Spanish Tutor,
+        <span>Wyzant</span>
+      </h3>
       <h5>Jan 2015 - Dec 2015</h5>
       <p
         class="resume__copy"
-      >Tutored K-12 and college students with Spanish coursework and test prep.</p>
+      >Independetanly tutored K-12 and college students with Spanish coursework and test preparation.</p>
     </div>
     <div class="resume__pos">
-      <h3>Weights & Measures Lab Assistant</h3>
-      <h4>GIA (Gemological Institute of America)</h4>
+      <h3>
+        Weights & Measures Lab Assistant,
+        <span>Gemological Institute of America</span>
+      </h3>
       <h5>Jul 2013 - Aug 2014</h5>
       <p class="resume__copy">
-        Processed 400+ stones daily using proprietary diagnostic technologies
+        Processed 400+ samples daily using proprietary diagnostic technologies.
         Supported research team to develop and test diagnostic technologies, and project initiatives.
       </p>
     </div>
     <div class="resume__pos">
-      <h3>Weights & Measures Lab Assistant</h3>
-      <h4>GIA (Gemological Institute of America)</h4>
+      <h3>
+        Student Advisor,
+        <span>Jones International University</span>
+      </h3>
       <h5>Jul 2013 - Aug 2014</h5>
-      <p class="resume__copy">
-        Processed 400+ stones daily using proprietary diagnostic technologies
-        Supported research team to develop and test diagnostic technologies, and project initiatives.
-      </p>
-    </div>
-    <div class="resume__pos">
-      Student Advisor
-      <h3></h3>Jones International University
-      <h4>GIA (Gemological Institute of America)</h4>
-      <h5>Feb 2012 - Nov 2012</h5>
-      <p class="resume__copy">
-        Assisted students with on-boarding procedures
-        Maintained successful student retention rates
-        Mentored students on academic and work-life success strategies
-      </p>
+      <p
+        class="resume__copy"
+      >Advised and mentored students on academic for academic prep and success in an online-learning environment. Assisted student with registration, onboarding-procedures. Maintained successful student retention rates.</p>
     </div>
     <h2 class="resume__category">Education</h2>
     <div class="resume__ed">
