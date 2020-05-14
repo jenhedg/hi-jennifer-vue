@@ -56,6 +56,14 @@
     padding: $spacer / 6;
 }
 
+//disable :focus, :active style for to non-nav links
+.resume__contact .contact__inner--bottom
+.hover--grow:focus:before, 
+.hover--grow:active:before {
+  left: initial;
+  right: initial;
+}
+
 .resume__icon {
   padding-right: 3px;
 }
@@ -103,6 +111,7 @@
   font-weight: 500; 
 }
 
-.resume__pos h3 span {
+.resume__pos h3 span,
+.resume__ed h4 span {
   font-weight: 300;
 }

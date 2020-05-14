@@ -87,6 +87,7 @@ a {
 /*Links*/
 a {
   color: $hotpink;
+  padding-bottom: .25em;
   text-decoration: none;
 }
 
@@ -98,7 +99,6 @@ a {
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   overflow: hidden;
-  padding-bottom: .25em;
 }
 
 .hover--grow:before {
