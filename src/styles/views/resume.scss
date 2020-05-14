@@ -78,22 +78,24 @@
   font-weight: 300;
 }
 
-.resume__techlist ul {
-    margin: 0; 
-    padding: 0;
-}
-
-.resume__techlist ul li {
-  margin-left: $spacer;  
-}
-
 .resume__techlist h3 {
+  @include textShadow(1px, 1px, 1px, $lightGray);  
   margin: 0 0 $spacer /2 0;
 }
 
 .resume__techlist h3 .fas  {
   color: $hotpink;
 }
+
+.resume__techlist ul {
+    margin: 0; 
+    padding: 0;
+}
+
+.resume__techlist ul li {
+  margin-left: 1.25em;  
+}
+
 
 
 .resume__category {

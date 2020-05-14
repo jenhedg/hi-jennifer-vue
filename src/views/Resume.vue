@@ -4,49 +4,31 @@
       <h1 class="resume__name">Jennifer Hedgcock</h1>
       <div class="resume__contact">
         <ul class="contact__inner--top">
-          <li>Tucson, Arizona | 520.400.2722</li>
+          <li>Tucson, Arizona | 520.400.2622</li>
           <li>
             <a
               class="hover--grow"
               href="mailto:jennifernhf@gmail.com"
               target="_blank"
-              >jennifernhf@gmail.com</a
-            >
+            >jennifernhf@gmail.com</a>
           </li>
           <li>
-            <a
-              class="hover--grow"
-              href="http://www.hi-jennifer.com"
-              target="_blank"
-              >hi-jennifer.com</a
-            >
+            <a class="hover--grow" href="http://www.hi-jennifer.com" target="_blank">hi-jennifer.com</a>
           </li>
         </ul>
         <ul class="contact__inner--bottom">
           <li>
-            <a
-              class="hover--grow"
-              href="https://www.linkedin.com/in/jhedgcock/"
-              target="_blank"
-            >
+            <a class="hover--grow" href="https://www.linkedin.com/in/jhedgcock/" target="_blank">
               <i class="resume__icon fab fa-linkedin"></i>LinkedIn
             </a>
           </li>
           <li>
-            <a
-              class="hover--grow"
-              href="https://github.com/jenhedg"
-              target="_blank"
-            >
+            <a class="hover--grow" href="https://github.com/jenhedg" target="_blank">
               <i class="resume__icon fab fa-github"></i>Github
             </a>
           </li>
           <li>
-            <a
-              class="hover--grow"
-              href="https://codepen.io/sparkleOven"
-              target="_blank"
-            >
+            <a class="hover--grow" href="https://codepen.io/sparkleOven" target="_blank">
               <i class="resume__icon fab fa-codepen"></i>Codepen
             </a>
           </li>
@@ -63,7 +45,7 @@
     </p>
     <div class="resume__techlist">
       <ul class>
-        <h3>Technical Experience</h3>
+        <h3>Technical Background</h3>
         <li>HTML, CSS/SCSS/Less, Javascript, jQuery, React.js, Vue.js</li>
         <li>Templating engines&mdash; Handlebars, Freemarker, Jinja</li>
         <li>Build tools and task runners&mdash; Webpack, NPM, Gulp, Grunt</li>
