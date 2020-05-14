@@ -13,6 +13,7 @@
 }
 
 .resume__name {
+  @include textShadow(1px, 1px, 1px, $lightGray);  
   font-size: $medFont;
   margin: 0 0 $spacer / 4 0;
 }
@@ -47,9 +48,9 @@
     flex-direction: column;
   }
 }
-
+//align padding other el hover state
 .resume__contact ul li:first-child {
-  padding-bottom: $spacer / 2;//align padding other el hover state
+  padding-bottom: $spacer / 2;
 }
 
 .resume__contact ul li {
