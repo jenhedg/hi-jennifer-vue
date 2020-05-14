@@ -14,6 +14,7 @@
 
 .resume__name {
   @include textShadow(1px, 1px, 1px, $lightGray);  
+
   font-size: $medFont;
   margin: 0 0 $spacer / 4 0;
 }
