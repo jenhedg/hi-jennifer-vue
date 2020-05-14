@@ -1,38 +1,67 @@
 .resume {
-  background: $white;
+  box-shadow: 1px 1px 1px $lightGray;
+  background: $offWhite;
   font-family: $sansSerif;
   font-weight: 600;
-  padding: $spacer;
-  width: 960px;
+  padding: $spacer / 2;
+  margin: 0 auto;
+  max-width: 960px;
+
+  @include lg {
+    padding: $spacer * 2;
+  }
 }
 
 .resume__name {
   font-size: $medFont;
-  margin: 0;
+  margin: 0 0 $spacer / 4 0;
 }
 
 .resume__contact {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   font-weight: $regular;
 
-  @include sm {
-    flex-direcion: column;
-  }
+    @include sm {
+      flex-direction: row;
+    } 
 }
 
 .resume__contact ul {
   padding: 0;
   list-style-type: none;
   margin: 0;    
-  flex-basis: calc(100% / 2);
-  max-width: calc(100% / 2);
+  width: 100%;
+
+  @include lg {
+    flex-basis: calc(100% / 3);
+    max-width: calc(100% / 3);
+  }
+}
+
+.resume__contact ul:nth-of-type(2) {
+  display: flex;
+  flex-direction: row;
+
+  @include sm {
+    flex-direction: column;
+  }
+}
+
+.resume__contact ul li:first-child {
+  padding-bottom: $spacer / 2;//align padding other el hover state
 }
 
 .resume__contact ul li {
     padding: $spacer / 6;
 }
 
-.resume__summary {
+.resume__icon {
+  padding-right: 3px;
+}
 
+.resume__summary {
+  font-size: $medFont;
+  font-weight: 300
+  ;
 }
