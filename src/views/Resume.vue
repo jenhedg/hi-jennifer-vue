@@ -38,10 +38,9 @@
     <hr class="hr" />
     <h2 class="resume__category">Summary</h2>
     <p class="resume__copy">
-      I am Front End Web Developer with a self-starting customer service and
+      I am a Front End Web Developer with a self-starting attitude, customer service skills and a
       digital marketing background. I have over 4 years of experience helping
-      clients to bridge the gap between tech and marketing using modern web
-      technologies.
+      clients bridge the gap between web technology and marketing objectives.
     </p>
     <div class="resume__techlist">
       <ul class>
@@ -55,7 +54,7 @@
     <h2 class="resume__category">Experience</h2>
     <div class="resume__pos">
       <h3>
-        Front-End Web Developer,
+        Front-End Developer,
         <span>Crescendo Collective</span>
       </h3>
       <h5>Feb 2016 - Mar 2020</h5>
@@ -84,11 +83,9 @@
         <span>Gemological Institute of America</span>
       </h3>
       <h5>Jul 2013 - Aug 2014</h5>
-      <p class="resume__copy">
-        Processed 400+ samples daily using proprietary diagnostic technologies.
-        Supported research team to develop and test diagnostic technologies, and
-        project initiatives.
-      </p>
+      <p
+        class="resume__copy"
+      >Accurately and efficienty processed 400+ precious stones daily using various diagnostic testing technologies. Promoted to operate more specialized machinery and interpret results of more complex samples. Supported research team to develop and test proprietary diagnostic technologies. Worked independently and in team environement.</p>
     </div>
     <div class="resume__pos">
       <h3>
