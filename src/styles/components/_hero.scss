@@ -1,3 +1,9 @@
+@keyframes fadeIn{
+    0% { opacity:0; }
+    66% { opacity:0; }
+    100% { opacity:1; }
+}
+
 .hero {
   display: flex;
   font-family: $sansSerif;
@@ -29,6 +35,8 @@
 }
 
 .hero__intro h1 {
+  opacity: 0;
+  animation: 1s ease-in normal forwards 1 fadeIn;
   font-family: $sansSerif;
   font-weight: $bold;
 
@@ -37,7 +45,14 @@
   }
 }
 
+.hero__intro h2,
+.hero__intro .hr {
+  opacity: 0;
+  animation:  1s ease-in .5s normal forwards 1 fadeIn;
+}
+
 .hero__intro h2 {
+  opacity: 0;
   font-size: 1.25em;
 
   @include lg {
@@ -77,6 +92,8 @@
 }
 
 .hero__contactLinks a {
+  animation:  1s ease-in .75s normal forwards 1 fadeIn;
+  opacity: 0;
   @include textShadow(1px, 1px, 0, $lightGray);
   font-family: $monospace;
   text-decoration: none;
@@ -103,6 +120,7 @@
 .hero__icon {
   margin-right: 3px;
   margin-bottom: 6px;
+
   vertical-align: middle;
 }
 
