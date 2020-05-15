@@ -66,6 +66,7 @@ $contentCardGradient: linear-gradient(45deg, $hotpink, $burntOrange);
 }
 
 .contentCard__description {
+    font-size: $smallFont;
     font-weight: 100;
 }
 

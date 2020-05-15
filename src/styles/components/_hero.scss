@@ -19,49 +19,38 @@
   margin: 0 auto;
 }
 
-.hero__intro h1, 
-.hero__intro h2 {
+.hero__intro .hero__title, 
+.hero__intro .hero__subtitle {
   @include textShadow(0, 1px, 0, $darkGray);
-
-  @include md {
-    text-shadow: none;
-  }
+  color: $black;
+  margin: 0;
 }
 
-.hero__intro h1 {
+.hero__intro .hero__title {
   opacity: 0;
   animation: 1s ease-in normal forwards 1 fadeIn;
   font-family: $sansSerif;
+  font-size: 3em;
   font-weight: $bold;
 
-  @include lg {
+  @include md {
     font-size: 3.85em;
   }
 }
 
-.hero__intro h2,
-.hero__intro .hr {
+.hero__intro .hero__subtitle {
   opacity: 0;
-  animation:  1s ease-in .5s normal forwards 1 fadeIn;
-}
+  font-size: 2.25em;
 
-.hero__intro h2 {
-  opacity: 0;
-  font-size: 1.25em;
-
-  @include lg {
+  @include md {
     font-size: 1.4em;
   }
 }
 
-.hero__intro h1,
-.hero__intro h2 {
-  color: $white;
-  margin: 0;
-
-  @include sm {
-    color: $black;
-  }
+.hero__intro .hero__subtitle,
+.hero__intro .hr {
+  opacity: 0;
+  animation:  1s ease-in .5s normal forwards 1 fadeIn;
 }
 
 .hero__intro a {
@@ -74,10 +63,11 @@
   justify-content: center;
   margin: $spacer 0;
   flex-direction: column;
-  font-size: $smallFont;
+  font-size: 1.75em;
   
   @include md {
       flex-direction: row;
+      font-size: $smallFont;
   }
 }
 
@@ -91,7 +81,7 @@
   line-height: 1;
   text-align: left;
 
-  @include lg {
+  @include md {
     text-align: center;
     text-shadow: none;
   }
