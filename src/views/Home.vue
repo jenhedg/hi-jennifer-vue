@@ -4,18 +4,18 @@
     <div class="contentGroup__inner">
       <ContentCard
         thumbnail="https://www.rollingstone.com/wp-content/uploads/2018/06/rs-192699-MCDBIMA_EC007_H.jpg"
-        title="Card Title"
-        copy="Lorem Ipsum dum dum doo doo. I type gibberish and thingies happen on screeny."
+        title="Title One"
+        copy="Astonishment culture tingling of the spine another world emerged into consciousness intelligent beings. A billion trillion vastness is bearable only through love network of wormholes of brilliant syntheses bits of moving fluff ship of the imagination?."
         href="http://www.google.com"
-        btnLabel="See Gitbub"
-        btnLabelTwo="View Site"
+        btnLabel="Link One"
+        btnLabelTwo="Link Two"
       />
       <ContentCard
         thumbnail="https://centsai.com/wp-content/uploads/2018/04/Financial-literacy-programs-for-the-poor-Daye-Deura-1200x825.jpg"
-        title="Card Title"
-        copy="Lorem Ipsum dum dum doo doo. This is a very exciting project, here are the technologies I used to make it. blah, de blah"
+        title="Title Two"
+        copy="With pretty stories for which there's little good evidence realm of the galaxies decipherment vastness is bearable only through love two ghostly white figures in coveralls and helmets are soflty dancing finite but unbounded and billions upon billions upon billions upon billions upon billions upon billions upon billions"
         href="https://google.com"
-        btnLabel="View Site"
+        btnLabel="Link One"
       />
     </div>
   </section>
