@@ -3,7 +3,7 @@
     <Hero />
     <div class="contentGroup__inner">
       <ContentCard
-        thumbnail="https://www.rollingstone.com/wp-content/uploads/2018/06/rs-192699-MCDBIMA_EC007_H.jpg"
+        thumbnail="https://i1.wp.com/storage.googleapis.com/blog-images-backup/1*wFL3csJ96lQpY0IVT9SE3w.jpeg?ssl=1"
         title="Hello, world!"
         copy="I built this site from scratch using Vue.js, Vue CLI and Vue Router. I chose Vue because I've worked with React and I wanted to try another popular SPA framework.  Vue's rich ecosystem of NPM packages, tools and yes, documentation (because everyone loves good documentation) makes it easy-to-learn and enjoyable to work with."
         href="https://vuejs.org/"
