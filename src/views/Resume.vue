@@ -10,7 +10,7 @@
             </a>
           </li>
           <li>
-            <a class="hover--grow" href="https://hi-jennifer.com/" target="_blank">
+            <a class="hover--grow" href="http://hi-jennifer.com" target="_blank">
               <i class="resume__icon fas fa-globe"></i>hi-jennifer.com
             </a>
           </li>
@@ -42,9 +42,9 @@
     <hr class="hr" />
     <h2 class="resume__category">Summary</h2>
     <p class="resume__copy">
-      I am a Front End Web Developer with over 4 years of experience in digital
-      marketing industry, where I helped clients bridge the gap between web
-      technology and marketing objectives. This experience, along with my
+      I am a Front End Web Developer with over 4 years of experience in the
+      digital marketing industry, where I helped clients bridge the gap between
+      web technology and marketing objectives. This experience, along with my
       diverse work and educational background, demonstrates my ability to
       understand problems and craft intelligent solutions while effectively
       working with all types of people and teams.
@@ -72,7 +72,7 @@
         Worked daily with client-led and internal teams, including offshore QA
         teams. Programmed enterprise-level webapps, microsites and marketing
         tools. Integrated front-end with Magnolia CMS and Java backend. Led
-        daily/weekly releases and deployment processes. Created documentation
+        daily/weekly releases and deployments. Created documentation
         and style guides for both clients and internal teams.
       </p>
     </div>
