@@ -4,18 +4,10 @@
     <div class="contentGroup__inner">
       <ContentCard
         thumbnail="https://www.rollingstone.com/wp-content/uploads/2018/06/rs-192699-MCDBIMA_EC007_H.jpg"
-        title="Title One"
-        copy="Astonishment culture tingling of the spine another world emerged into consciousness intelligent beings. A billion trillion vastness is bearable only through love network of wormholes of brilliant syntheses bits of moving fluff ship of the imagination?."
-        href="http://www.google.com"
-        btnLabel="Link One"
-        btnLabelTwo="Link Two"
-      />
-      <ContentCard
-        thumbnail="https://centsai.com/wp-content/uploads/2018/04/Financial-literacy-programs-for-the-poor-Daye-Deura-1200x825.jpg"
-        title="Title Two"
-        copy="With pretty stories for which there's little good evidence realm of the galaxies decipherment vastness is bearable only through love two ghostly white figures in coveralls and helmets are soflty dancing finite but unbounded and billions upon billions upon billions upon billions upon billions upon billions upon billions"
-        href="https://google.com"
-        btnLabel="Link One"
+        title="Hello, world!"
+        copy="I built this site from scratch using Vue.js, Vue CLI and Vue Router. I chose Vue because I've worked with React and I wanted to try another popular SPA framework.  Vue's rich ecosystem of NPM packages, tools and yes, documentation (because everyone loves good documentation) makes it easy-to-learn and enjoyable to work with."
+        href="https://vuejs.org/"
+        btnLabel="Learn More"
       />
     </div>
   </section>
