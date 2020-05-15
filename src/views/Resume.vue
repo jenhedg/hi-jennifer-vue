@@ -5,11 +5,7 @@
       <div class="resume__contact">
         <ul class="contact__inner--top">
           <li>
-            <a
-              class="hover--grow"
-              href="https://en.wikipedia.org/wiki/Tucson,_Arizona"
-              target="_blank"
-            >
+            <a class="hover--grow" href="http://hi-jennifer.com" target="_blank">
               <i class="resume__icon fas fa-map-pin"></i>Tucson, Arizona
             </a>
           </li>

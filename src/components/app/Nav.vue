@@ -40,14 +40,6 @@ export default {
   props: {
     msg: String,
   },
-  methods: {
-    openNav: function (event) {
-      if (event) {
-        var mobileTrigger = document.getElementById("mobileTrigger");
-        mobileTrigger.classList.add("nav--isMobile");
-      }
-    },
-  },
 };
 </script>
 
