@@ -52,26 +52,10 @@
     flex-direction: column;
   }
 }
-//align padding other el hover state
-.resume__contact ul li:first-child {
-  
-  @include lg {
-    padding-bottom: $spacer / 2;
-  }
-}
 
 .resume__contact ul li {
   padding: $spacer / 6;
 }
-
-// //Todo~make separate, refactor conflicting hover :hover,:focus,:active states
-// //disable :focus, :active style for to non-nav links
-// .resume__contact .contact__inner--bottom
-// .hover--grow:focus:before, 
-// .hover--grow:active:before {
-//   left: initial;
-//   right: initial;
-// }
 
 .resume__icon {
   padding-right: 3px;
