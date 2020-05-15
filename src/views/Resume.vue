@@ -10,29 +10,49 @@
             </a>
           </li>
           <li>
-            <a class="hover--grow" href="http://www.hi-jennifer.com" target="_blank">
+            <a
+              class="hover--grow"
+              href="http://www.hi-jennifer.com"
+              target="_blank"
+            >
               <i class="resume__icon fas fa-globe"></i>hi-jennifer.com
             </a>
           </li>
           <li>
-            <a class="hover--grow" href="mailto:jennifernhf@gmail.com" target="_blank">
+            <a
+              class="hover--grow"
+              href="mailto:jennifernhf@gmail.com"
+              target="_blank"
+            >
               <i class="resume__icon far fa-envelope"></i>jennifernhf@gmail.com
             </a>
           </li>
         </ul>
         <ul class="contact__inner--bottom">
           <li>
-            <a class="hover--grow" href="https://www.linkedin.com/in/jhedgcock/" target="_blank">
+            <a
+              class="hover--grow"
+              href="https://www.linkedin.com/in/jhedgcock/"
+              target="_blank"
+            >
               <i class="resume__icon fab fa-linkedin"></i>LinkedIn
             </a>
           </li>
           <li>
-            <a class="hover--grow" href="https://github.com/jenhedg" target="_blank">
+            <a
+              class="hover--grow"
+              href="https://github.com/jenhedg"
+              target="_blank"
+            >
               <i class="resume__icon fab fa-github"></i>Github
             </a>
           </li>
           <li>
-            <a class="hover--grow" href="https://codepen.io/sparkleOven" target="_blank">
+            <a
+              class="hover--grow"
+              href="https://codepen.io/sparkleOven"
+              target="_blank"
+            >
               <i class="resume__icon fab fa-codepen"></i>Codepen
             </a>
           </li>
@@ -42,22 +62,30 @@
     <hr class="hr" />
     <h2 class="resume__category">Summary</h2>
     <p class="resume__copy">
-      I am a Front End Web Developer with a self-starting attitude, customer
-      service skills and a digital marketing background. I have over 4 years of
-      experience helping clients bridge the gap between web technology and
-      marketing objectives.
+      I am a Front End Web Developer with over 4 years of experience in digital
+      marketing industry, where I helped clients bridge the gap between web
+      technology and marketing objectives. This experience, along with my
+      diverse work and educational background, demonstrates my ability to
+      understand problems and craft intelligent solutions while effectively
+      working with all types of people and teams.
     </p>
     <ul class="resume__techlist">
       <h3>Technical Background</h3>
-      <li class="resume__techItem">HTML, CSS/SCSS/Less, Javascript, jQuery, React.js, Vue.js</li>
+      <li class="resume__techItem">
+        HTML, CSS/SCSS/Less, Javascript, jQuery, React.js, Vue.js
+      </li>
       <li class="resume__techItem">
         Dynamic Templating syntaxes&mdash; Jsx, Jsp Handlebars, Freemarker,
         Jinja
       </li>
-      <li class="resume__techItem">Build tools and task runners&mdash; Webpack, NPM, Gulp, Grunt</li>
+      <li class="resume__techItem">
+        Build tools and task runners&mdash; Webpack, NPM, Gulp, Grunt
+      </li>
       <li class="resume__techItem">Version control&mdash; Git, Mercurial</li>
       <li class="resume__techItem">Agile Development&mdash;Jira, Confluence</li>
-      <li class="resume__techItem">Deployment Operations&mdash; CLI, Team City, Bamboo, Vercel</li>
+      <li class="resume__techItem">
+        Deployment Operations&mdash; CLI, Team City, Bamboo, Vercel
+      </li>
     </ul>
     <h2 class="resume__category">Experience</h2>
     <div class="resume__pos">
