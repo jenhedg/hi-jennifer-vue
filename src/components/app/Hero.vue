@@ -1,4 +1,3 @@
-
 <template>
   <section class="hero">
     <div class="hero__intro">
@@ -10,11 +9,16 @@
           class="hover--grow"
           href="https://en.wikipedia.org/wiki/Tucson,_Arizona"
           target="_blank"
-        >Tucson, Arizona.</a>
+          >Tucson, Arizona.</a
+        >
       </h2>
       <Hr />
       <div class="hero__contactLinks">
-        <a class="hero__icon--withLink" href="https://github.com/jenhedg" target="_blank">
+        <a
+          class="hero__icon--withLink"
+          href="https://github.com/jenhedg"
+          target="_blank"
+        >
           <i class="hero__icon fab fa-github"></i>
           <span class="hover--grow">Github</span>
         </a>
@@ -26,7 +30,11 @@
           <i class="hero__icon fab fa-linkedin"></i>
           <span class="hover--grow">LinkedIn</span>
         </a>
-        <a class="hero__icon--withLink" href="https://codepen.io/sparkleOven" target="_blank">
+        <a
+          class="hero__icon--withLink"
+          href="https://codepen.io/sparkleOven"
+          target="_blank"
+        >
           <i class="hero__icon fab fa-codepen"></i>
           <span class="hover--grow">Codepen</span>
         </a>
