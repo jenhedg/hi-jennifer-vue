@@ -14,6 +14,6 @@ module.exports = {
     disableHostCheck: true,
   },
   publicPath: {
-    process.env.NODE_ENV === 'production' ? 'dist/' : './'
+    process.env.NODE_ENV === "production" ? "dist/" : "./"
   }
 };
