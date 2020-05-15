@@ -14,7 +14,7 @@
             </a>
           </li>
           <li>
-            <a class="hover--grow" href="http://www.hi-jennifer.com" target="_blank">
+            <a class="hover--grow" href="https://hi-jennifer.com/" target="_blank">
               <i class="resume__icon fas fa-globe"></i>hi-jennifer.com
             </a>
           </li>
