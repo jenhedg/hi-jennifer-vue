@@ -13,7 +13,4 @@ module.exports = {
   devServer: {
     disableHostCheck: true,
   },
-  output: {
-    path: path.resolve(__dirname, 'dist'),
-  }
 };
