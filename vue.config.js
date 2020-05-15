@@ -13,7 +13,7 @@ module.exports = {
   devServer: {
     disableHostCheck: true,
   },
-  publicPath: {
-    process.env.NODE_ENV === "production" ? "dist/" : "./"
+  output: {
+    path: path.resolve(__dirname, 'dist'),
   }
 };
