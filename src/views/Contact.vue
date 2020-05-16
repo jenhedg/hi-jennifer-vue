@@ -14,10 +14,10 @@
       <li class="contact__listItem">
         <a
           class="hover--grow"
-          href="mailto:jennifernhf@gmail.com"
+          href="mailto:hijenniferaz@gmail.com"
           target="_blank"
         >
-          <b>Email:</b>&nbsp;jennifernhf@gmail.com
+          <b>Email:</b>&nbsp;hijenniferaz@gmail.com
         </a>
       </li>
       <li class="contact__listItem">
