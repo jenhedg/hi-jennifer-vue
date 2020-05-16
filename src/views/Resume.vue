@@ -15,8 +15,8 @@
             </a>
           </li>
           <li>
-            <a class="hover--grow" href="mailto:jennifernhf@gmail.com" target="_blank">
-              <i class="resume__icon far fa-envelope"></i>jennifernhf@gmail.com
+            <a class="hover--grow" href="mailto:hijenniferaz@gmail.com" target="_blank">
+              <i class="resume__icon far fa-envelope"></i>hijenniferaz@gmail.com
             </a>
           </li>
         </ul>
@@ -72,8 +72,8 @@
         Worked daily with client-led and internal teams, including offshore QA
         teams. Programmed enterprise-level webapps, microsites and marketing
         tools. Integrated front-end with Magnolia CMS and Java backend. Led
-        daily/weekly releases and deployments. Created documentation
-        and style guides for both clients and internal teams.
+        daily/weekly releases and deployments. Created documentation and style
+        guides for both clients and internal teams.
       </p>
     </div>
     <div class="resume__pos">

@@ -21,7 +21,6 @@
 
 .hero__intro .hero__title, 
 .hero__intro .hero__subtitle {
-  @include textShadow(0, 1px, 0, $darkGray);
   color: $black;
   margin: 0;
 }
