@@ -62,8 +62,6 @@
   justify-content: center;
   flex-direction: column;
   font-size: 1.5em;
-  // margin: $spacer auto;
-  // width: 50%;
 
   @include md {
     flex-direction: row;
@@ -92,6 +90,10 @@
 
 .hero__contactLinks a span {
   text-decoration: underline;
+
+  @include md {
+    text-decoration: none;
+  }
 }
 
 .hero__icon--withLink {
