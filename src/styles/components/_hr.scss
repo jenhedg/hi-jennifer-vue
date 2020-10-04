@@ -1,13 +1,9 @@
 .hr {
-  display: none;
-
-  @include sm {
-    background-color: $hotpink;
-    border-style: none;
-    display: block;
-    height: 1px;
-    width: 100%;
-  }
+  background-color: $hotpink;
+  border-style: none;
+  display: block;
+  height: 2px;
+  width: 100%;
 
   &--tall {
     height: 4px;
