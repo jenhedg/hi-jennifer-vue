@@ -97,7 +97,7 @@
     </div>
     <div class="resume__pos">
       <h3 class="resume__title">
-        Weights & Measures Lab Assistant,
+        Lab Assistant, Weights & Measures ,
         <span>Gemological Institute of America</span>
       </h3>
       <h5 class="resume__date">Jul 2013 - Aug 2014</h5>
