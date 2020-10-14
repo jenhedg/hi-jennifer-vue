@@ -116,10 +116,10 @@
       </h3>
       <h5 class="resume__date">Jul 2013 - Aug 2014</h5>
       <p class="resume__copy">
-        Guided and mentored prospective and incoming students on academic for
-        academic prep and success in an online-learning environment. Assisted
-        student with registration, onboarding-procedures. Successfully
-        maintained metric goals for quarterly student retention rates.
+        Guided and mentored students students on
+        academic prep and success in an online-learning environment. Coordinated
+        student registration, onboarding-procedures. Successfully
+        maintained metric goals for quarterly retention rates.
       </p>
     </div>
     <h2 class="resume__category">Education</h2>
