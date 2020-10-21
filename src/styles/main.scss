@@ -18,6 +18,13 @@
 @import "views/resume.scss";
 @import "views/contact.scss";
 
+@media screen {
+  body:root[data-theme="dark"] {
+    background-color: black;
+    color: white;
+  }
+}
+
 *,
 html {
   box-sizing: border-box;
