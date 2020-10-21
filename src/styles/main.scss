@@ -19,9 +19,18 @@
 @import "views/contact.scss";
 
 @media screen {
-  body:root[data-theme="dark"] {
-    background-color: black;
-    color: white;
+  :root[data-theme*="secondaryTheme"] {
+    --backgroundColor: #000;
+    --textColor: #fff;
+  }
+}
+
+[data-theme="secondaryTheme"] {
+  #app {
+    background: black;
+  }
+  .bg__river--left {
+    display: none;
   }
 }
 
